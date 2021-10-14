@@ -1,0 +1,3 @@
+C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir
+C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
