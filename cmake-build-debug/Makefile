@@ -128,30 +128,6 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/hollow_rhombus.obj: homework/hollow_rhombus.cpp.obj
-.PHONY : homework/hollow_rhombus.obj
-
-# target to build an object file
-homework/hollow_rhombus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hollow_rhombus.cpp.obj
-.PHONY : homework/hollow_rhombus.cpp.obj
-
-homework/hollow_rhombus.i: homework/hollow_rhombus.cpp.i
-.PHONY : homework/hollow_rhombus.i
-
-# target to preprocess a source file
-homework/hollow_rhombus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hollow_rhombus.cpp.i
-.PHONY : homework/hollow_rhombus.cpp.i
-
-homework/hollow_rhombus.s: homework/hollow_rhombus.cpp.s
-.PHONY : homework/hollow_rhombus.s
-
-# target to generate assembly for a file
-homework/hollow_rhombus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hollow_rhombus.cpp.s
-.PHONY : homework/hollow_rhombus.cpp.s
-
 homework/unsigned_char_values.obj: homework/unsigned_char_values.cpp.obj
 .PHONY : homework/unsigned_char_values.obj
 
@@ -185,9 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/hollow_rhombus.obj
-	@echo ... homework/hollow_rhombus.i
-	@echo ... homework/hollow_rhombus.s
 	@echo ... homework/unsigned_char_values.obj
 	@echo ... homework/unsigned_char_values.i
 	@echo ... homework/unsigned_char_values.s
