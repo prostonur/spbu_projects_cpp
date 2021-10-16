@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/unsigned_char_values.cpp
+C:/My Projects C++/spbu projects cpp/homework/discriminant.cpp
 iostream
+-
+cmath
 -
 

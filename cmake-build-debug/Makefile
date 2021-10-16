@@ -152,30 +152,6 @@ homework/discriminant.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.s
 .PHONY : homework/discriminant.cpp.s
 
-homework/unsigned_char_values.obj: homework/unsigned_char_values.cpp.obj
-.PHONY : homework/unsigned_char_values.obj
-
-# target to build an object file
-homework/unsigned_char_values.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/unsigned_char_values.cpp.obj
-.PHONY : homework/unsigned_char_values.cpp.obj
-
-homework/unsigned_char_values.i: homework/unsigned_char_values.cpp.i
-.PHONY : homework/unsigned_char_values.i
-
-# target to preprocess a source file
-homework/unsigned_char_values.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/unsigned_char_values.cpp.i
-.PHONY : homework/unsigned_char_values.cpp.i
-
-homework/unsigned_char_values.s: homework/unsigned_char_values.cpp.s
-.PHONY : homework/unsigned_char_values.s
-
-# target to generate assembly for a file
-homework/unsigned_char_values.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/unsigned_char_values.cpp.s
-.PHONY : homework/unsigned_char_values.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... homework/discriminant.obj
 	@echo ... homework/discriminant.i
 	@echo ... homework/discriminant.s
-	@echo ... homework/unsigned_char_values.obj
-	@echo ... homework/unsigned_char_values.i
-	@echo ... homework/unsigned_char_values.s
 .PHONY : help
 
 
