@@ -128,6 +128,30 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
+homework/checkered_rhombus.obj: homework/checkered_rhombus.cpp.obj
+.PHONY : homework/checkered_rhombus.obj
+
+# target to build an object file
+homework/checkered_rhombus.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/checkered_rhombus.cpp.obj
+.PHONY : homework/checkered_rhombus.cpp.obj
+
+homework/checkered_rhombus.i: homework/checkered_rhombus.cpp.i
+.PHONY : homework/checkered_rhombus.i
+
+# target to preprocess a source file
+homework/checkered_rhombus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/checkered_rhombus.cpp.i
+.PHONY : homework/checkered_rhombus.cpp.i
+
+homework/checkered_rhombus.s: homework/checkered_rhombus.cpp.s
+.PHONY : homework/checkered_rhombus.s
+
+# target to generate assembly for a file
+homework/checkered_rhombus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/checkered_rhombus.cpp.s
+.PHONY : homework/checkered_rhombus.cpp.s
+
 homework/n_rhombus_in_console.obj: homework/n_rhombus_in_console.cpp.obj
 .PHONY : homework/n_rhombus_in_console.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
+	@echo ... homework/checkered_rhombus.obj
+	@echo ... homework/checkered_rhombus.i
+	@echo ... homework/checkered_rhombus.s
 	@echo ... homework/n_rhombus_in_console.obj
 	@echo ... homework/n_rhombus_in_console.i
 	@echo ... homework/n_rhombus_in_console.s
