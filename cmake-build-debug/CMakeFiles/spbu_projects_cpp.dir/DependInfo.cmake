@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/homework/checkered_rhombus.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/checkered_rhombus.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/homework/hollow_rhombus.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/hollow_rhombus.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

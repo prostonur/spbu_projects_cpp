@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/checkered_rhombus.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/hollow_rhombus.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">
