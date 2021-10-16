@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/rhombus_in_console.obj: classwork/rhombus_in_console.cpp.obj
-.PHONY : classwork/rhombus_in_console.obj
+homework/n_rhombus_in_console.obj: homework/n_rhombus_in_console.cpp.obj
+.PHONY : homework/n_rhombus_in_console.obj
 
 # target to build an object file
-classwork/rhombus_in_console.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/rhombus_in_console.cpp.obj
-.PHONY : classwork/rhombus_in_console.cpp.obj
+homework/n_rhombus_in_console.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/n_rhombus_in_console.cpp.obj
+.PHONY : homework/n_rhombus_in_console.cpp.obj
 
-classwork/rhombus_in_console.i: classwork/rhombus_in_console.cpp.i
-.PHONY : classwork/rhombus_in_console.i
+homework/n_rhombus_in_console.i: homework/n_rhombus_in_console.cpp.i
+.PHONY : homework/n_rhombus_in_console.i
 
 # target to preprocess a source file
-classwork/rhombus_in_console.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/rhombus_in_console.cpp.i
-.PHONY : classwork/rhombus_in_console.cpp.i
+homework/n_rhombus_in_console.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/n_rhombus_in_console.cpp.i
+.PHONY : homework/n_rhombus_in_console.cpp.i
 
-classwork/rhombus_in_console.s: classwork/rhombus_in_console.cpp.s
-.PHONY : classwork/rhombus_in_console.s
+homework/n_rhombus_in_console.s: homework/n_rhombus_in_console.cpp.s
+.PHONY : homework/n_rhombus_in_console.s
 
 # target to generate assembly for a file
-classwork/rhombus_in_console.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/rhombus_in_console.cpp.s
-.PHONY : classwork/rhombus_in_console.cpp.s
+homework/n_rhombus_in_console.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/n_rhombus_in_console.cpp.s
+.PHONY : homework/n_rhombus_in_console.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/rhombus_in_console.obj
-	@echo ... classwork/rhombus_in_console.i
-	@echo ... classwork/rhombus_in_console.s
+	@echo ... homework/n_rhombus_in_console.obj
+	@echo ... homework/n_rhombus_in_console.i
+	@echo ... homework/n_rhombus_in_console.s
 .PHONY : help
 
 
