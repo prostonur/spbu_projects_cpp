@@ -128,6 +128,30 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
+homework/powers_row.obj: homework/powers_row.cpp.obj
+.PHONY : homework/powers_row.obj
+
+# target to build an object file
+homework/powers_row.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.obj
+.PHONY : homework/powers_row.cpp.obj
+
+homework/powers_row.i: homework/powers_row.cpp.i
+.PHONY : homework/powers_row.i
+
+# target to preprocess a source file
+homework/powers_row.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.i
+.PHONY : homework/powers_row.cpp.i
+
+homework/powers_row.s: homework/powers_row.cpp.s
+.PHONY : homework/powers_row.s
+
+# target to generate assembly for a file
+homework/powers_row.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.s
+.PHONY : homework/powers_row.cpp.s
+
 homework/ring_with_radiusis.obj: homework/ring_with_radiusis.cpp.obj
 .PHONY : homework/ring_with_radiusis.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
+	@echo ... homework/powers_row.obj
+	@echo ... homework/powers_row.i
+	@echo ... homework/powers_row.s
 	@echo ... homework/ring_with_radiusis.obj
 	@echo ... homework/ring_with_radiusis.i
 	@echo ... homework/ring_with_radiusis.s
