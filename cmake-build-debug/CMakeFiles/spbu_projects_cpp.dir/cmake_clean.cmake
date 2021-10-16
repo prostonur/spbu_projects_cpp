@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spbu_projects_cpp.dir/homework/hollow_rhombus.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/homework/unsigned_char_values.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"
