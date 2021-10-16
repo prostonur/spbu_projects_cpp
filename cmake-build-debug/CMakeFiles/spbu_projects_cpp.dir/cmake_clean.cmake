@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/spbu_projects_cpp.dir/homework/checkered_rhombus.cpp.obj"
-  "CMakeFiles/spbu_projects_cpp.dir/homework/n_rhombus_in_console.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"
