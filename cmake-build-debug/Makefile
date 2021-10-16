@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/discriminant.obj: homework/discriminant.cpp.obj
-.PHONY : homework/discriminant.obj
+homework/ring_with_radiusis.obj: homework/ring_with_radiusis.cpp.obj
+.PHONY : homework/ring_with_radiusis.obj
 
 # target to build an object file
-homework/discriminant.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.obj
-.PHONY : homework/discriminant.cpp.obj
+homework/ring_with_radiusis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.obj
+.PHONY : homework/ring_with_radiusis.cpp.obj
 
-homework/discriminant.i: homework/discriminant.cpp.i
-.PHONY : homework/discriminant.i
+homework/ring_with_radiusis.i: homework/ring_with_radiusis.cpp.i
+.PHONY : homework/ring_with_radiusis.i
 
 # target to preprocess a source file
-homework/discriminant.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.i
-.PHONY : homework/discriminant.cpp.i
+homework/ring_with_radiusis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.i
+.PHONY : homework/ring_with_radiusis.cpp.i
 
-homework/discriminant.s: homework/discriminant.cpp.s
-.PHONY : homework/discriminant.s
+homework/ring_with_radiusis.s: homework/ring_with_radiusis.cpp.s
+.PHONY : homework/ring_with_radiusis.s
 
 # target to generate assembly for a file
-homework/discriminant.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.s
-.PHONY : homework/discriminant.cpp.s
+homework/ring_with_radiusis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.s
+.PHONY : homework/ring_with_radiusis.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/discriminant.obj
-	@echo ... homework/discriminant.i
-	@echo ... homework/discriminant.s
+	@echo ... homework/ring_with_radiusis.obj
+	@echo ... homework/ring_with_radiusis.i
+	@echo ... homework/ring_with_radiusis.s
 .PHONY : help
 
 
