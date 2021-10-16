@@ -7,11 +7,19 @@
 //****
 
 #include <iostream>
+#include <exception>
 
 int main() {
      size_t n;
      std::cout << "enter n: ";
-     std::cin >> n;
+     try {
+         std::cin >> n;
+         if (n > 25)
+             throw std::out_of_range("too much n");
+     } catch (const std::out_of_range ex) {
+        std::cerr << ex.what() << '\n';
+         exit(1);
+     }
      for (size_t i = 1; i <= n; ++i) {
          int count = 0;
          while (count != i) {
