@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/discriminant.cpp">
+			<Option target="spbu_projects_cpp"/>
+		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/unsigned_char_values.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>

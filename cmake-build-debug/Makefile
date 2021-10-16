@@ -128,6 +128,30 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
+homework/discriminant.obj: homework/discriminant.cpp.obj
+.PHONY : homework/discriminant.obj
+
+# target to build an object file
+homework/discriminant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.obj
+.PHONY : homework/discriminant.cpp.obj
+
+homework/discriminant.i: homework/discriminant.cpp.i
+.PHONY : homework/discriminant.i
+
+# target to preprocess a source file
+homework/discriminant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.i
+.PHONY : homework/discriminant.cpp.i
+
+homework/discriminant.s: homework/discriminant.cpp.s
+.PHONY : homework/discriminant.s
+
+# target to generate assembly for a file
+homework/discriminant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/discriminant.cpp.s
+.PHONY : homework/discriminant.cpp.s
+
 homework/unsigned_char_values.obj: homework/unsigned_char_values.cpp.obj
 .PHONY : homework/unsigned_char_values.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
+	@echo ... homework/discriminant.obj
+	@echo ... homework/discriminant.i
+	@echo ... homework/discriminant.s
 	@echo ... homework/unsigned_char_values.obj
 	@echo ... homework/unsigned_char_values.i
 	@echo ... homework/unsigned_char_values.s
