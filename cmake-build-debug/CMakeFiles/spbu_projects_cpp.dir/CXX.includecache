@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/ring_with_radiusis.cpp
+C:/My Projects C++/spbu projects cpp/homework/powers_row.cpp
 iostream
 -
 cmath
+-
+exception
 -
 

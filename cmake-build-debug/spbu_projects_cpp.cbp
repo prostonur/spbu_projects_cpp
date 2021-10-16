@@ -83,9 +83,6 @@
 		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/powers_row.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/ring_with_radiusis.cpp">
-			<Option target="spbu_projects_cpp"/>
-		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

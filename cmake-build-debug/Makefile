@@ -152,30 +152,6 @@ homework/powers_row.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.s
 .PHONY : homework/powers_row.cpp.s
 
-homework/ring_with_radiusis.obj: homework/ring_with_radiusis.cpp.obj
-.PHONY : homework/ring_with_radiusis.obj
-
-# target to build an object file
-homework/ring_with_radiusis.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.obj
-.PHONY : homework/ring_with_radiusis.cpp.obj
-
-homework/ring_with_radiusis.i: homework/ring_with_radiusis.cpp.i
-.PHONY : homework/ring_with_radiusis.i
-
-# target to preprocess a source file
-homework/ring_with_radiusis.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.i
-.PHONY : homework/ring_with_radiusis.cpp.i
-
-homework/ring_with_radiusis.s: homework/ring_with_radiusis.cpp.s
-.PHONY : homework/ring_with_radiusis.s
-
-# target to generate assembly for a file
-homework/ring_with_radiusis.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/ring_with_radiusis.cpp.s
-.PHONY : homework/ring_with_radiusis.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... homework/powers_row.obj
 	@echo ... homework/powers_row.i
 	@echo ... homework/powers_row.s
-	@echo ... homework/ring_with_radiusis.obj
-	@echo ... homework/ring_with_radiusis.i
-	@echo ... homework/ring_with_radiusis.s
 .PHONY : help
 
 
