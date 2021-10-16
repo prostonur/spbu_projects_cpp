@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/classwork/right_triangle_in_console.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/right_triangle_in_console.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/classwork/rhombus_in_console.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/rhombus_in_console.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
