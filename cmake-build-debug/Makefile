@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+classwork/right_triangle_in_console.obj: classwork/right_triangle_in_console.cpp.obj
+.PHONY : classwork/right_triangle_in_console.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+classwork/right_triangle_in_console.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/right_triangle_in_console.cpp.obj
+.PHONY : classwork/right_triangle_in_console.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+classwork/right_triangle_in_console.i: classwork/right_triangle_in_console.cpp.i
+.PHONY : classwork/right_triangle_in_console.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+classwork/right_triangle_in_console.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/right_triangle_in_console.cpp.i
+.PHONY : classwork/right_triangle_in_console.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+classwork/right_triangle_in_console.s: classwork/right_triangle_in_console.cpp.s
+.PHONY : classwork/right_triangle_in_console.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+classwork/right_triangle_in_console.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/right_triangle_in_console.cpp.s
+.PHONY : classwork/right_triangle_in_console.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... classwork/right_triangle_in_console.obj
+	@echo ... classwork/right_triangle_in_console.i
+	@echo ... classwork/right_triangle_in_console.s
 .PHONY : help
 
 

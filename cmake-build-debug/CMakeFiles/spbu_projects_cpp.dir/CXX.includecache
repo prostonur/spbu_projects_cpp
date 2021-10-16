@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/main.cpp
+C:/My Projects C++/spbu projects cpp/classwork/right_triangle_in_console.cpp
 iostream
+-
+exception
 -
 
