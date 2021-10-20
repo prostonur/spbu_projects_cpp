@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/numbers_or_words.cpp
+C:/My Projects C++/spbu projects cpp/homework/circle_border.cpp
 iostream
+-
+cmath
+-
+set
 -
 

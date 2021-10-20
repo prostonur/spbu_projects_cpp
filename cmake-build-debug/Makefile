@@ -152,30 +152,6 @@ homework/circle_border.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/circle_border.cpp.s
 .PHONY : homework/circle_border.cpp.s
 
-homework/numbers_or_words.obj: homework/numbers_or_words.cpp.obj
-.PHONY : homework/numbers_or_words.obj
-
-# target to build an object file
-homework/numbers_or_words.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.obj
-.PHONY : homework/numbers_or_words.cpp.obj
-
-homework/numbers_or_words.i: homework/numbers_or_words.cpp.i
-.PHONY : homework/numbers_or_words.i
-
-# target to preprocess a source file
-homework/numbers_or_words.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.i
-.PHONY : homework/numbers_or_words.cpp.i
-
-homework/numbers_or_words.s: homework/numbers_or_words.cpp.s
-.PHONY : homework/numbers_or_words.s
-
-# target to generate assembly for a file
-homework/numbers_or_words.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.s
-.PHONY : homework/numbers_or_words.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... homework/circle_border.obj
 	@echo ... homework/circle_border.i
 	@echo ... homework/circle_border.s
-	@echo ... homework/numbers_or_words.obj
-	@echo ... homework/numbers_or_words.i
-	@echo ... homework/numbers_or_words.s
 .PHONY : help
 
 
