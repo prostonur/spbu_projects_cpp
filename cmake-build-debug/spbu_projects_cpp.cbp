@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/circle_border.cpp">
+			<Option target="spbu_projects_cpp"/>
+		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/numbers_or_words.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
