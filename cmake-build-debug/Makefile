@@ -152,30 +152,6 @@ homework/numbers_or_words.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.s
 .PHONY : homework/numbers_or_words.cpp.s
 
-homework/powers_row.obj: homework/powers_row.cpp.obj
-.PHONY : homework/powers_row.obj
-
-# target to build an object file
-homework/powers_row.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.obj
-.PHONY : homework/powers_row.cpp.obj
-
-homework/powers_row.i: homework/powers_row.cpp.i
-.PHONY : homework/powers_row.i
-
-# target to preprocess a source file
-homework/powers_row.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.i
-.PHONY : homework/powers_row.cpp.i
-
-homework/powers_row.s: homework/powers_row.cpp.s
-.PHONY : homework/powers_row.s
-
-# target to generate assembly for a file
-homework/powers_row.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/powers_row.cpp.s
-.PHONY : homework/powers_row.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... homework/numbers_or_words.obj
 	@echo ... homework/numbers_or_words.i
 	@echo ... homework/numbers_or_words.s
-	@echo ... homework/powers_row.obj
-	@echo ... homework/powers_row.i
-	@echo ... homework/powers_row.s
 .PHONY : help
 
 
