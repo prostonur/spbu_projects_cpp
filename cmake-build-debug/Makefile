@@ -128,6 +128,30 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
+homework/numbers_or_words.obj: homework/numbers_or_words.cpp.obj
+.PHONY : homework/numbers_or_words.obj
+
+# target to build an object file
+homework/numbers_or_words.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.obj
+.PHONY : homework/numbers_or_words.cpp.obj
+
+homework/numbers_or_words.i: homework/numbers_or_words.cpp.i
+.PHONY : homework/numbers_or_words.i
+
+# target to preprocess a source file
+homework/numbers_or_words.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.i
+.PHONY : homework/numbers_or_words.cpp.i
+
+homework/numbers_or_words.s: homework/numbers_or_words.cpp.s
+.PHONY : homework/numbers_or_words.s
+
+# target to generate assembly for a file
+homework/numbers_or_words.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/numbers_or_words.cpp.s
+.PHONY : homework/numbers_or_words.cpp.s
+
 homework/powers_row.obj: homework/powers_row.cpp.obj
 .PHONY : homework/powers_row.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
+	@echo ... homework/numbers_or_words.obj
+	@echo ... homework/numbers_or_words.i
+	@echo ... homework/numbers_or_words.s
 	@echo ... homework/powers_row.obj
 	@echo ... homework/powers_row.i
 	@echo ... homework/powers_row.s
