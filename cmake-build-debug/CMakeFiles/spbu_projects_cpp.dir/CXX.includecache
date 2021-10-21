@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/circle_border.cpp
+C:/My Projects C++/spbu projects cpp/homework/graphic_in_console.cpp
 iostream
 -
 cmath
--
-set
 -
 

@@ -128,30 +128,6 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/circle_border.obj: homework/circle_border.cpp.obj
-.PHONY : homework/circle_border.obj
-
-# target to build an object file
-homework/circle_border.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/circle_border.cpp.obj
-.PHONY : homework/circle_border.cpp.obj
-
-homework/circle_border.i: homework/circle_border.cpp.i
-.PHONY : homework/circle_border.i
-
-# target to preprocess a source file
-homework/circle_border.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/circle_border.cpp.i
-.PHONY : homework/circle_border.cpp.i
-
-homework/circle_border.s: homework/circle_border.cpp.s
-.PHONY : homework/circle_border.s
-
-# target to generate assembly for a file
-homework/circle_border.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/circle_border.cpp.s
-.PHONY : homework/circle_border.cpp.s
-
 homework/graphic_in_console.obj: homework/graphic_in_console.cpp.obj
 .PHONY : homework/graphic_in_console.obj
 
@@ -185,9 +161,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/circle_border.obj
-	@echo ... homework/circle_border.i
-	@echo ... homework/circle_border.s
 	@echo ... homework/graphic_in_console.obj
 	@echo ... homework/graphic_in_console.i
 	@echo ... homework/graphic_in_console.s
