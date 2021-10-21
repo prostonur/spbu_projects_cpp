@@ -152,6 +152,30 @@ homework/circle_border.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/circle_border.cpp.s
 .PHONY : homework/circle_border.cpp.s
 
+homework/graphic_in_console.obj: homework/graphic_in_console.cpp.obj
+.PHONY : homework/graphic_in_console.obj
+
+# target to build an object file
+homework/graphic_in_console.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.obj
+.PHONY : homework/graphic_in_console.cpp.obj
+
+homework/graphic_in_console.i: homework/graphic_in_console.cpp.i
+.PHONY : homework/graphic_in_console.i
+
+# target to preprocess a source file
+homework/graphic_in_console.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.i
+.PHONY : homework/graphic_in_console.cpp.i
+
+homework/graphic_in_console.s: homework/graphic_in_console.cpp.s
+.PHONY : homework/graphic_in_console.s
+
+# target to generate assembly for a file
+homework/graphic_in_console.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.s
+.PHONY : homework/graphic_in_console.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... homework/circle_border.obj
 	@echo ... homework/circle_border.i
 	@echo ... homework/circle_border.s
+	@echo ... homework/graphic_in_console.obj
+	@echo ... homework/graphic_in_console.i
+	@echo ... homework/graphic_in_console.s
 .PHONY : help
 
 
