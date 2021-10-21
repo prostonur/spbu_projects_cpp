@@ -11,7 +11,14 @@ int main() {
     int r;
     std::set<std::pair<int, int>> st;
     std::cout << "enter r: ";
-    std::cin >> r;
+    try {
+        std::cin >> r;
+        if (r > pow(10, 6))
+            throw std::out_of_range("out of range\n");
+    } catch (const std::exception& ex) {
+        std::cerr << ex.what();
+        exit(1);
+    }
     int count = 0;
     for (int x = -r; x <= r; ++x)
         for (int y = -r; y <= r; ++y)
@@ -24,7 +31,14 @@ int main() {
 //int main() {
 //    int r;
 //    std::cout << "enter r: ";
-//    std::cin >> r;
+//    try {
+//        std::cin >> r;
+//        if (r > pow(10, 6))
+//            throw std::out_of_range("out of range\n");
+//    } catch (const std::exception& ex) {
+//        std::cerr << ex.what();
+//        exit(1);
+//    }
 //    bool arr[2 * r + 1][2 * r + 1];
 //    for (int x = -r; x <= r; ++x) {
 //        for (int y = -r; y <= r; ++y)
@@ -35,7 +49,6 @@ int main() {
 //            std::cout << arr[x][y] << ' ';
 //        std::cout << '\n';
 //    }
-//
 //
 //    int count = 0;
 //    for (int x = -r; x <= r; ++x)
