@@ -15,9 +15,9 @@ bool function(int x, int y) {
 
 
 int main() {
-    for (int x = -15; x <= 15; ++x) {
-         for (int y = -15; y <= 15; ++y) {
-             if (function(x, y))
+    for (int x = 15; x >= -15; --x) {
+         for (int y = 15; y >= -15; --y) {
+             if (function(y, x))
                  std::cout << "*";
              else
                  std::cout << " ";
