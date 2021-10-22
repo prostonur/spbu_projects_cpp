@@ -12,6 +12,6 @@ int main() {
         s += t;
         t = sin(t);
     }
-    std::cout << s << '\n';
+    std::cout << sin(s) << '\n';
 }
 
