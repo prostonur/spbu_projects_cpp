@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/graphic_in_console.obj: homework/graphic_in_console.cpp.obj
-.PHONY : homework/graphic_in_console.obj
+classwork/row.obj: classwork/row.cpp.obj
+.PHONY : classwork/row.obj
 
 # target to build an object file
-homework/graphic_in_console.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.obj
-.PHONY : homework/graphic_in_console.cpp.obj
+classwork/row.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj
+.PHONY : classwork/row.cpp.obj
 
-homework/graphic_in_console.i: homework/graphic_in_console.cpp.i
-.PHONY : homework/graphic_in_console.i
+classwork/row.i: classwork/row.cpp.i
+.PHONY : classwork/row.i
 
 # target to preprocess a source file
-homework/graphic_in_console.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.i
-.PHONY : homework/graphic_in_console.cpp.i
+classwork/row.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.i
+.PHONY : classwork/row.cpp.i
 
-homework/graphic_in_console.s: homework/graphic_in_console.cpp.s
-.PHONY : homework/graphic_in_console.s
+classwork/row.s: classwork/row.cpp.s
+.PHONY : classwork/row.s
 
 # target to generate assembly for a file
-homework/graphic_in_console.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/graphic_in_console.cpp.s
-.PHONY : homework/graphic_in_console.cpp.s
+classwork/row.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.s
+.PHONY : classwork/row.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/graphic_in_console.obj
-	@echo ... homework/graphic_in_console.i
-	@echo ... homework/graphic_in_console.s
+	@echo ... classwork/row.obj
+	@echo ... classwork/row.i
+	@echo ... classwork/row.s
 .PHONY : help
 
 
