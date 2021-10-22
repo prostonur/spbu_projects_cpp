@@ -152,29 +152,29 @@ classwork/row_eps.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s
 .PHONY : classwork/row_eps.cpp.s
 
-classwork/row_sin.obj: classwork/row_sin.cpp.obj
-.PHONY : classwork/row_sin.obj
+classwork/row_tailor.obj: classwork/row_tailor.cpp.obj
+.PHONY : classwork/row_tailor.obj
 
 # target to build an object file
-classwork/row_sin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj
-.PHONY : classwork/row_sin.cpp.obj
+classwork/row_tailor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj
+.PHONY : classwork/row_tailor.cpp.obj
 
-classwork/row_sin.i: classwork/row_sin.cpp.i
-.PHONY : classwork/row_sin.i
+classwork/row_tailor.i: classwork/row_tailor.cpp.i
+.PHONY : classwork/row_tailor.i
 
 # target to preprocess a source file
-classwork/row_sin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i
-.PHONY : classwork/row_sin.cpp.i
+classwork/row_tailor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i
+.PHONY : classwork/row_tailor.cpp.i
 
-classwork/row_sin.s: classwork/row_sin.cpp.s
-.PHONY : classwork/row_sin.s
+classwork/row_tailor.s: classwork/row_tailor.cpp.s
+.PHONY : classwork/row_tailor.s
 
 # target to generate assembly for a file
-classwork/row_sin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s
-.PHONY : classwork/row_sin.cpp.s
+classwork/row_tailor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s
+.PHONY : classwork/row_tailor.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... classwork/row_eps.obj
 	@echo ... classwork/row_eps.i
 	@echo ... classwork/row_eps.s
-	@echo ... classwork/row_sin.obj
-	@echo ... classwork/row_sin.i
-	@echo ... classwork/row_sin.s
+	@echo ... classwork/row_tailor.obj
+	@echo ... classwork/row_tailor.i
+	@echo ... classwork/row_tailor.s
 .PHONY : help
 
 

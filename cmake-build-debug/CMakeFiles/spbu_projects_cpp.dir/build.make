@@ -78,29 +78,29 @@ CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.s
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj: ../classwork/row_sin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp"
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj: ../classwork/row_tailor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp"
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
 "CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp
