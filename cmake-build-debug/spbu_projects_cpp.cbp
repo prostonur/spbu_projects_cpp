@@ -80,7 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/row.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/row_eps.cpp">
+			<Option target="spbu_projects_cpp"/>
+		</Unit>
+		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/row_sin.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">

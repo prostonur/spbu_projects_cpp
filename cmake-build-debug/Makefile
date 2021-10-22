@@ -128,29 +128,53 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/row.obj: classwork/row.cpp.obj
-.PHONY : classwork/row.obj
+classwork/row_eps.obj: classwork/row_eps.cpp.obj
+.PHONY : classwork/row_eps.obj
 
 # target to build an object file
-classwork/row.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj
-.PHONY : classwork/row.cpp.obj
+classwork/row_eps.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj
+.PHONY : classwork/row_eps.cpp.obj
 
-classwork/row.i: classwork/row.cpp.i
-.PHONY : classwork/row.i
+classwork/row_eps.i: classwork/row_eps.cpp.i
+.PHONY : classwork/row_eps.i
 
 # target to preprocess a source file
-classwork/row.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.i
-.PHONY : classwork/row.cpp.i
+classwork/row_eps.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.i
+.PHONY : classwork/row_eps.cpp.i
 
-classwork/row.s: classwork/row.cpp.s
-.PHONY : classwork/row.s
+classwork/row_eps.s: classwork/row_eps.cpp.s
+.PHONY : classwork/row_eps.s
 
 # target to generate assembly for a file
-classwork/row.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.s
-.PHONY : classwork/row.cpp.s
+classwork/row_eps.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s
+.PHONY : classwork/row_eps.cpp.s
+
+classwork/row_sin.obj: classwork/row_sin.cpp.obj
+.PHONY : classwork/row_sin.obj
+
+# target to build an object file
+classwork/row_sin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj
+.PHONY : classwork/row_sin.cpp.obj
+
+classwork/row_sin.i: classwork/row_sin.cpp.i
+.PHONY : classwork/row_sin.i
+
+# target to preprocess a source file
+classwork/row_sin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i
+.PHONY : classwork/row_sin.cpp.i
+
+classwork/row_sin.s: classwork/row_sin.cpp.s
+.PHONY : classwork/row_sin.s
+
+# target to generate assembly for a file
+classwork/row_sin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s
+.PHONY : classwork/row_sin.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/row.obj
-	@echo ... classwork/row.i
-	@echo ... classwork/row.s
+	@echo ... classwork/row_eps.obj
+	@echo ... classwork/row_eps.i
+	@echo ... classwork/row_eps.s
+	@echo ... classwork/row_sin.obj
+	@echo ... classwork/row_sin.i
+	@echo ... classwork/row_sin.s
 .PHONY : help
 
 

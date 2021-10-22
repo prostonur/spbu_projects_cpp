@@ -65,32 +65,47 @@ include CMakeFiles/spbu_projects_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spbu_projects_cpp.dir/flags.make
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj: ../classwork/row.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row.cpp"
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj: ../classwork/row_eps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp"
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.s
+
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj: ../classwork/row_sin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp"
+
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.i
+
+CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_sin.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_sin.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj" \
+"CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_sin.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spbu_projects_cpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable spbu_projects_cpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spbu_projects_cpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
