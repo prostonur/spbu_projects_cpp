@@ -9,4 +9,3 @@ int main() {
         sum += (static_cast<double>(1) / i);
     std::cout << "sum: " << sum << '\n';
 }
-
