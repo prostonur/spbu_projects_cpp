@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp classwork/row_sin.cpp)
+add_executable(spbu_projects_cpp classwork/decomposition_digits.cpp)

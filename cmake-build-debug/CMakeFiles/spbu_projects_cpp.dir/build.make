@@ -65,47 +65,32 @@ include CMakeFiles/spbu_projects_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spbu_projects_cpp.dir/flags.make
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj: ../classwork/row_eps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp"
+CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj: ../classwork/decomposition_digits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\decomposition_digits.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\decomposition_digits.cpp"
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\decomposition_digits.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\decomposition_digits.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_eps.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_eps.cpp.s
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj: ../classwork/row_tailor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.obj -c "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp"
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp" > CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.i
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\row_tailor.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\row_tailor.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\classwork\decomposition_digits.cpp" -o CMakeFiles\spbu_projects_cpp.dir\classwork\decomposition_digits.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_eps.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable spbu_projects_cpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spbu_projects_cpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spbu_projects_cpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
