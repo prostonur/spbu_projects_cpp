@@ -17,7 +17,7 @@ int main() {
     int i = 3;
     double mult = 1.0;
     double sign_2 = 1.0;
-    while (mult * sign <= eps) {
+    while (mult * sign >= eps) {
         sign_2 *= -1.0;
         mult = sign_2 * (1. / i);
         s += mult;
