@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/decomposition_digits.obj: classwork/decomposition_digits.cpp.obj
-.PHONY : classwork/decomposition_digits.obj
+classwork/row_tailor.obj: classwork/row_tailor.cpp.obj
+.PHONY : classwork/row_tailor.obj
 
 # target to build an object file
-classwork/decomposition_digits.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj
-.PHONY : classwork/decomposition_digits.cpp.obj
+classwork/row_tailor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj
+.PHONY : classwork/row_tailor.cpp.obj
 
-classwork/decomposition_digits.i: classwork/decomposition_digits.cpp.i
-.PHONY : classwork/decomposition_digits.i
+classwork/row_tailor.i: classwork/row_tailor.cpp.i
+.PHONY : classwork/row_tailor.i
 
 # target to preprocess a source file
-classwork/decomposition_digits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.i
-.PHONY : classwork/decomposition_digits.cpp.i
+classwork/row_tailor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i
+.PHONY : classwork/row_tailor.cpp.i
 
-classwork/decomposition_digits.s: classwork/decomposition_digits.cpp.s
-.PHONY : classwork/decomposition_digits.s
+classwork/row_tailor.s: classwork/row_tailor.cpp.s
+.PHONY : classwork/row_tailor.s
 
 # target to generate assembly for a file
-classwork/decomposition_digits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.s
-.PHONY : classwork/decomposition_digits.cpp.s
+classwork/row_tailor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s
+.PHONY : classwork/row_tailor.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/decomposition_digits.obj
-	@echo ... classwork/decomposition_digits.i
-	@echo ... classwork/decomposition_digits.s
+	@echo ... classwork/row_tailor.obj
+	@echo ... classwork/row_tailor.i
+	@echo ... classwork/row_tailor.s
 .PHONY : help
 
 

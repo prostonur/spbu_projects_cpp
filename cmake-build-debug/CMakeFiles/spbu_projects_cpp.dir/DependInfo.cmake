@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/classwork/decomposition_digits.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/decomposition_digits.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/classwork/row_tailor.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
