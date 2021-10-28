@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/row_tailor.obj: classwork/row_tailor.cpp.obj
-.PHONY : classwork/row_tailor.obj
+classwork/sedate_row.obj: classwork/sedate_row.cpp.obj
+.PHONY : classwork/sedate_row.obj
 
 # target to build an object file
-classwork/row_tailor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.obj
-.PHONY : classwork/row_tailor.cpp.obj
+classwork/sedate_row.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.obj
+.PHONY : classwork/sedate_row.cpp.obj
 
-classwork/row_tailor.i: classwork/row_tailor.cpp.i
-.PHONY : classwork/row_tailor.i
+classwork/sedate_row.i: classwork/sedate_row.cpp.i
+.PHONY : classwork/sedate_row.i
 
 # target to preprocess a source file
-classwork/row_tailor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.i
-.PHONY : classwork/row_tailor.cpp.i
+classwork/sedate_row.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.i
+.PHONY : classwork/sedate_row.cpp.i
 
-classwork/row_tailor.s: classwork/row_tailor.cpp.s
-.PHONY : classwork/row_tailor.s
+classwork/sedate_row.s: classwork/sedate_row.cpp.s
+.PHONY : classwork/sedate_row.s
 
 # target to generate assembly for a file
-classwork/row_tailor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/row_tailor.cpp.s
-.PHONY : classwork/row_tailor.cpp.s
+classwork/sedate_row.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.s
+.PHONY : classwork/sedate_row.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/row_tailor.obj
-	@echo ... classwork/row_tailor.i
-	@echo ... classwork/row_tailor.s
+	@echo ... classwork/sedate_row.obj
+	@echo ... classwork/sedate_row.i
+	@echo ... classwork/sedate_row.s
 .PHONY : help
 
 
