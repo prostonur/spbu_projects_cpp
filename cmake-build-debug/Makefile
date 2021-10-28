@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/chosen_system.obj: homework/chosen_system.cpp.obj
-.PHONY : homework/chosen_system.obj
+homework/roman_numeral_system.obj: homework/roman_numeral_system.cpp.obj
+.PHONY : homework/roman_numeral_system.obj
 
 # target to build an object file
-homework/chosen_system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/chosen_system.cpp.obj
-.PHONY : homework/chosen_system.cpp.obj
+homework/roman_numeral_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.obj
+.PHONY : homework/roman_numeral_system.cpp.obj
 
-homework/chosen_system.i: homework/chosen_system.cpp.i
-.PHONY : homework/chosen_system.i
+homework/roman_numeral_system.i: homework/roman_numeral_system.cpp.i
+.PHONY : homework/roman_numeral_system.i
 
 # target to preprocess a source file
-homework/chosen_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/chosen_system.cpp.i
-.PHONY : homework/chosen_system.cpp.i
+homework/roman_numeral_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.i
+.PHONY : homework/roman_numeral_system.cpp.i
 
-homework/chosen_system.s: homework/chosen_system.cpp.s
-.PHONY : homework/chosen_system.s
+homework/roman_numeral_system.s: homework/roman_numeral_system.cpp.s
+.PHONY : homework/roman_numeral_system.s
 
 # target to generate assembly for a file
-homework/chosen_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/chosen_system.cpp.s
-.PHONY : homework/chosen_system.cpp.s
+homework/roman_numeral_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.s
+.PHONY : homework/roman_numeral_system.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/chosen_system.obj
-	@echo ... homework/chosen_system.i
-	@echo ... homework/chosen_system.s
+	@echo ... homework/roman_numeral_system.obj
+	@echo ... homework/roman_numeral_system.i
+	@echo ... homework/roman_numeral_system.s
 .PHONY : help
 
 

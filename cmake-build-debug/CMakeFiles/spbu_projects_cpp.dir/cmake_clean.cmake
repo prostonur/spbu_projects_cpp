@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spbu_projects_cpp.dir/homework/chosen_system.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"
