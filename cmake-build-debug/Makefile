@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/square_and_inscribed_circle.obj: homework/square_and_inscribed_circle.cpp.obj
-.PHONY : homework/square_and_inscribed_circle.obj
+classwork/binary_system.obj: classwork/binary_system.cpp.obj
+.PHONY : classwork/binary_system.obj
 
 # target to build an object file
-homework/square_and_inscribed_circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.obj
-.PHONY : homework/square_and_inscribed_circle.cpp.obj
+classwork/binary_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.obj
+.PHONY : classwork/binary_system.cpp.obj
 
-homework/square_and_inscribed_circle.i: homework/square_and_inscribed_circle.cpp.i
-.PHONY : homework/square_and_inscribed_circle.i
+classwork/binary_system.i: classwork/binary_system.cpp.i
+.PHONY : classwork/binary_system.i
 
 # target to preprocess a source file
-homework/square_and_inscribed_circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.i
-.PHONY : homework/square_and_inscribed_circle.cpp.i
+classwork/binary_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.i
+.PHONY : classwork/binary_system.cpp.i
 
-homework/square_and_inscribed_circle.s: homework/square_and_inscribed_circle.cpp.s
-.PHONY : homework/square_and_inscribed_circle.s
+classwork/binary_system.s: classwork/binary_system.cpp.s
+.PHONY : classwork/binary_system.s
 
 # target to generate assembly for a file
-homework/square_and_inscribed_circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.s
-.PHONY : homework/square_and_inscribed_circle.cpp.s
+classwork/binary_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.s
+.PHONY : classwork/binary_system.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/square_and_inscribed_circle.obj
-	@echo ... homework/square_and_inscribed_circle.i
-	@echo ... homework/square_and_inscribed_circle.s
+	@echo ... classwork/binary_system.obj
+	@echo ... classwork/binary_system.i
+	@echo ... classwork/binary_system.s
 .PHONY : help
 
 
