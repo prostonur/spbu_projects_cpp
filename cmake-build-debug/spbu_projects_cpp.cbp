@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/sedate_row.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/syracuse_sequence.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">

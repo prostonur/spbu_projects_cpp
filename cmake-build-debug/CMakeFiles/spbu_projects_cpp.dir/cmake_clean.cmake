@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"

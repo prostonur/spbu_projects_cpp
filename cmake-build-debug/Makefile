@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/sedate_row.obj: classwork/sedate_row.cpp.obj
-.PHONY : classwork/sedate_row.obj
+homework/syracuse_sequence.obj: homework/syracuse_sequence.cpp.obj
+.PHONY : homework/syracuse_sequence.obj
 
 # target to build an object file
-classwork/sedate_row.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.obj
-.PHONY : classwork/sedate_row.cpp.obj
+homework/syracuse_sequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.obj
+.PHONY : homework/syracuse_sequence.cpp.obj
 
-classwork/sedate_row.i: classwork/sedate_row.cpp.i
-.PHONY : classwork/sedate_row.i
+homework/syracuse_sequence.i: homework/syracuse_sequence.cpp.i
+.PHONY : homework/syracuse_sequence.i
 
 # target to preprocess a source file
-classwork/sedate_row.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.i
-.PHONY : classwork/sedate_row.cpp.i
+homework/syracuse_sequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.i
+.PHONY : homework/syracuse_sequence.cpp.i
 
-classwork/sedate_row.s: classwork/sedate_row.cpp.s
-.PHONY : classwork/sedate_row.s
+homework/syracuse_sequence.s: homework/syracuse_sequence.cpp.s
+.PHONY : homework/syracuse_sequence.s
 
 # target to generate assembly for a file
-classwork/sedate_row.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/sedate_row.cpp.s
-.PHONY : classwork/sedate_row.cpp.s
+homework/syracuse_sequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.s
+.PHONY : homework/syracuse_sequence.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/sedate_row.obj
-	@echo ... classwork/sedate_row.i
-	@echo ... classwork/sedate_row.s
+	@echo ... homework/syracuse_sequence.obj
+	@echo ... homework/syracuse_sequence.i
+	@echo ... homework/syracuse_sequence.s
 .PHONY : help
 
 
