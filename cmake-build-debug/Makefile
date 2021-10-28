@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/binary_system.obj: classwork/binary_system.cpp.obj
-.PHONY : classwork/binary_system.obj
+homework/hex_binary.obj: homework/hex_binary.cpp.obj
+.PHONY : homework/hex_binary.obj
 
 # target to build an object file
-classwork/binary_system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.obj
-.PHONY : classwork/binary_system.cpp.obj
+homework/hex_binary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hex_binary.cpp.obj
+.PHONY : homework/hex_binary.cpp.obj
 
-classwork/binary_system.i: classwork/binary_system.cpp.i
-.PHONY : classwork/binary_system.i
+homework/hex_binary.i: homework/hex_binary.cpp.i
+.PHONY : homework/hex_binary.i
 
 # target to preprocess a source file
-classwork/binary_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.i
-.PHONY : classwork/binary_system.cpp.i
+homework/hex_binary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hex_binary.cpp.i
+.PHONY : homework/hex_binary.cpp.i
 
-classwork/binary_system.s: classwork/binary_system.cpp.s
-.PHONY : classwork/binary_system.s
+homework/hex_binary.s: homework/hex_binary.cpp.s
+.PHONY : homework/hex_binary.s
 
 # target to generate assembly for a file
-classwork/binary_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/binary_system.cpp.s
-.PHONY : classwork/binary_system.cpp.s
+homework/hex_binary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hex_binary.cpp.s
+.PHONY : homework/hex_binary.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/binary_system.obj
-	@echo ... classwork/binary_system.i
-	@echo ... classwork/binary_system.s
+	@echo ... homework/hex_binary.obj
+	@echo ... homework/hex_binary.i
+	@echo ... homework/hex_binary.s
 .PHONY : help
 
 
