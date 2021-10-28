@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/hex_binary.cpp
+C:/My Projects C++/spbu projects cpp/homework/chosen_system.cpp
 iostream
+-
+exception
 -
 
