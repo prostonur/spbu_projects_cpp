@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/syracuse_sequence.obj: homework/syracuse_sequence.cpp.obj
-.PHONY : homework/syracuse_sequence.obj
+homework/square_and_inscribed_circle.obj: homework/square_and_inscribed_circle.cpp.obj
+.PHONY : homework/square_and_inscribed_circle.obj
 
 # target to build an object file
-homework/syracuse_sequence.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.obj
-.PHONY : homework/syracuse_sequence.cpp.obj
+homework/square_and_inscribed_circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.obj
+.PHONY : homework/square_and_inscribed_circle.cpp.obj
 
-homework/syracuse_sequence.i: homework/syracuse_sequence.cpp.i
-.PHONY : homework/syracuse_sequence.i
+homework/square_and_inscribed_circle.i: homework/square_and_inscribed_circle.cpp.i
+.PHONY : homework/square_and_inscribed_circle.i
 
 # target to preprocess a source file
-homework/syracuse_sequence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.i
-.PHONY : homework/syracuse_sequence.cpp.i
+homework/square_and_inscribed_circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.i
+.PHONY : homework/square_and_inscribed_circle.cpp.i
 
-homework/syracuse_sequence.s: homework/syracuse_sequence.cpp.s
-.PHONY : homework/syracuse_sequence.s
+homework/square_and_inscribed_circle.s: homework/square_and_inscribed_circle.cpp.s
+.PHONY : homework/square_and_inscribed_circle.s
 
 # target to generate assembly for a file
-homework/syracuse_sequence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/syracuse_sequence.cpp.s
-.PHONY : homework/syracuse_sequence.cpp.s
+homework/square_and_inscribed_circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.s
+.PHONY : homework/square_and_inscribed_circle.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/syracuse_sequence.obj
-	@echo ... homework/syracuse_sequence.i
-	@echo ... homework/syracuse_sequence.s
+	@echo ... homework/square_and_inscribed_circle.obj
+	@echo ... homework/square_and_inscribed_circle.i
+	@echo ... homework/square_and_inscribed_circle.s
 .PHONY : help
 
 
