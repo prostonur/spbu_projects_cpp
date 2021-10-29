@@ -4,19 +4,19 @@
 //Отдельным столбцом вывести значение функции sin(x) в тех же точках.
 
 #include <iostream>
-
+#include <cmath>
 
 int main() {
     double eps;
-    int x_min = 0, x_max = 0, dx;
+    double x_min = 0. , x_max = 0. , dx;
     std::cout << "enter eps, x_min, x_max, dx: ";
     std::cin >> eps >> x_min >> x_max >> dx;
-    for (int i = x_min; i <= x_max; i += dx) {
+    for (double i = x_min; i <= x_max; i += dx) {
         double addendum = i * 1.;
-        int temp_x = i;
+        double temp_x = i;
         double sum = temp_x * 1. ;
-        int fact = 1;
-        int odd = 1;
+        double fact = 1;
+        double odd = 1;
         double sign = 1. ;
         while (std::abs(addendum) >= eps) {
             sign *= -1. ;
@@ -28,4 +28,5 @@ int main() {
         }
         std::cout << i << '\t' << sum << '\t' << sin(i) << '\n';
     }
+
 }

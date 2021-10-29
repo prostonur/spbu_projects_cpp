@@ -32,5 +32,5 @@ int main() {
         std::cout << "all the bullets hit the bull's eye!\n";
         exit(1);
     }
-    std::cout << 1. * hit / not_hit << ' ' << 3.14 / 4 << '\n';
+    std::cout << 1. * hit / (r * r / 4) << ' ' << 3.14 / 4 << '\n';
 }

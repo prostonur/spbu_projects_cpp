@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/roman_numeral_system.obj: homework/roman_numeral_system.cpp.obj
-.PHONY : homework/roman_numeral_system.obj
+homework/square_and_inscribed_circle.obj: homework/square_and_inscribed_circle.cpp.obj
+.PHONY : homework/square_and_inscribed_circle.obj
 
 # target to build an object file
-homework/roman_numeral_system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.obj
-.PHONY : homework/roman_numeral_system.cpp.obj
+homework/square_and_inscribed_circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.obj
+.PHONY : homework/square_and_inscribed_circle.cpp.obj
 
-homework/roman_numeral_system.i: homework/roman_numeral_system.cpp.i
-.PHONY : homework/roman_numeral_system.i
+homework/square_and_inscribed_circle.i: homework/square_and_inscribed_circle.cpp.i
+.PHONY : homework/square_and_inscribed_circle.i
 
 # target to preprocess a source file
-homework/roman_numeral_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.i
-.PHONY : homework/roman_numeral_system.cpp.i
+homework/square_and_inscribed_circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.i
+.PHONY : homework/square_and_inscribed_circle.cpp.i
 
-homework/roman_numeral_system.s: homework/roman_numeral_system.cpp.s
-.PHONY : homework/roman_numeral_system.s
+homework/square_and_inscribed_circle.s: homework/square_and_inscribed_circle.cpp.s
+.PHONY : homework/square_and_inscribed_circle.s
 
 # target to generate assembly for a file
-homework/roman_numeral_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/roman_numeral_system.cpp.s
-.PHONY : homework/roman_numeral_system.cpp.s
+homework/square_and_inscribed_circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.s
+.PHONY : homework/square_and_inscribed_circle.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/roman_numeral_system.obj
-	@echo ... homework/roman_numeral_system.i
-	@echo ... homework/roman_numeral_system.s
+	@echo ... homework/square_and_inscribed_circle.obj
+	@echo ... homework/square_and_inscribed_circle.i
+	@echo ... homework/square_and_inscribed_circle.s
 .PHONY : help
 
 
