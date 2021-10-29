@@ -27,7 +27,7 @@ int main() {
     std::cin >> num;
     bool check = true;
     while (check) {
-        if (num % max_deg != num and num % max_deg != 0) {
+        if ((num % max_deg != num and num % max_deg != 0) or (num % max_deg == 0 and max_deg == 1)) {
             int count = num / max_deg;
             if ((count == 4 or count == 9) and letter(max_deg) != 'M') {
                 (oper == 5) ? (oper = 2) : (oper = 5);
@@ -46,14 +46,7 @@ int main() {
                 (oper == 5) ? (oper = 2) : (oper = 5);
             }
         } else if (num % max_deg == 0) {
-            if (max_deg == 1) {
-                while (num) {
-                    std::cout << letter(max_deg);
-                    num--;
-                }
-            } else {
-                std::cout << letter(max_deg);
-            }
+            std::cout << letter(max_deg);
             check = false;
         }
         else {
