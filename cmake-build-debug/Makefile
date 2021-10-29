@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/horner_scheme.obj: classwork/horner_scheme.cpp.obj
-.PHONY : classwork/horner_scheme.obj
+classwork/hex_char_system.obj: classwork/hex_char_system.cpp.obj
+.PHONY : classwork/hex_char_system.obj
 
 # target to build an object file
-classwork/horner_scheme.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.obj
-.PHONY : classwork/horner_scheme.cpp.obj
+classwork/hex_char_system.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.obj
+.PHONY : classwork/hex_char_system.cpp.obj
 
-classwork/horner_scheme.i: classwork/horner_scheme.cpp.i
-.PHONY : classwork/horner_scheme.i
+classwork/hex_char_system.i: classwork/hex_char_system.cpp.i
+.PHONY : classwork/hex_char_system.i
 
 # target to preprocess a source file
-classwork/horner_scheme.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.i
-.PHONY : classwork/horner_scheme.cpp.i
+classwork/hex_char_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.i
+.PHONY : classwork/hex_char_system.cpp.i
 
-classwork/horner_scheme.s: classwork/horner_scheme.cpp.s
-.PHONY : classwork/horner_scheme.s
+classwork/hex_char_system.s: classwork/hex_char_system.cpp.s
+.PHONY : classwork/hex_char_system.s
 
 # target to generate assembly for a file
-classwork/horner_scheme.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.s
-.PHONY : classwork/horner_scheme.cpp.s
+classwork/hex_char_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.s
+.PHONY : classwork/hex_char_system.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/horner_scheme.obj
-	@echo ... classwork/horner_scheme.i
-	@echo ... classwork/horner_scheme.s
+	@echo ... classwork/hex_char_system.obj
+	@echo ... classwork/hex_char_system.i
+	@echo ... classwork/hex_char_system.s
 .PHONY : help
 
 
