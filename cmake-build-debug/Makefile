@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/time_difference.obj: classwork/time_difference.cpp.obj
-.PHONY : classwork/time_difference.obj
+classwork/horner_scheme.obj: classwork/horner_scheme.cpp.obj
+.PHONY : classwork/horner_scheme.obj
 
 # target to build an object file
-classwork/time_difference.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.obj
-.PHONY : classwork/time_difference.cpp.obj
+classwork/horner_scheme.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.obj
+.PHONY : classwork/horner_scheme.cpp.obj
 
-classwork/time_difference.i: classwork/time_difference.cpp.i
-.PHONY : classwork/time_difference.i
+classwork/horner_scheme.i: classwork/horner_scheme.cpp.i
+.PHONY : classwork/horner_scheme.i
 
 # target to preprocess a source file
-classwork/time_difference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.i
-.PHONY : classwork/time_difference.cpp.i
+classwork/horner_scheme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.i
+.PHONY : classwork/horner_scheme.cpp.i
 
-classwork/time_difference.s: classwork/time_difference.cpp.s
-.PHONY : classwork/time_difference.s
+classwork/horner_scheme.s: classwork/horner_scheme.cpp.s
+.PHONY : classwork/horner_scheme.s
 
 # target to generate assembly for a file
-classwork/time_difference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.s
-.PHONY : classwork/time_difference.cpp.s
+classwork/horner_scheme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/horner_scheme.cpp.s
+.PHONY : classwork/horner_scheme.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/time_difference.obj
-	@echo ... classwork/time_difference.i
-	@echo ... classwork/time_difference.s
+	@echo ... classwork/horner_scheme.obj
+	@echo ... classwork/horner_scheme.i
+	@echo ... classwork/horner_scheme.s
 .PHONY : help
 
 
