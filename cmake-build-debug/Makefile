@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/square_and_inscribed_circle.obj: homework/square_and_inscribed_circle.cpp.obj
-.PHONY : homework/square_and_inscribed_circle.obj
+classwork/time_difference.obj: classwork/time_difference.cpp.obj
+.PHONY : classwork/time_difference.obj
 
 # target to build an object file
-homework/square_and_inscribed_circle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.obj
-.PHONY : homework/square_and_inscribed_circle.cpp.obj
+classwork/time_difference.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.obj
+.PHONY : classwork/time_difference.cpp.obj
 
-homework/square_and_inscribed_circle.i: homework/square_and_inscribed_circle.cpp.i
-.PHONY : homework/square_and_inscribed_circle.i
+classwork/time_difference.i: classwork/time_difference.cpp.i
+.PHONY : classwork/time_difference.i
 
 # target to preprocess a source file
-homework/square_and_inscribed_circle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.i
-.PHONY : homework/square_and_inscribed_circle.cpp.i
+classwork/time_difference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.i
+.PHONY : classwork/time_difference.cpp.i
 
-homework/square_and_inscribed_circle.s: homework/square_and_inscribed_circle.cpp.s
-.PHONY : homework/square_and_inscribed_circle.s
+classwork/time_difference.s: classwork/time_difference.cpp.s
+.PHONY : classwork/time_difference.s
 
 # target to generate assembly for a file
-homework/square_and_inscribed_circle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.s
-.PHONY : homework/square_and_inscribed_circle.cpp.s
+classwork/time_difference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.s
+.PHONY : classwork/time_difference.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/square_and_inscribed_circle.obj
-	@echo ... homework/square_and_inscribed_circle.i
-	@echo ... homework/square_and_inscribed_circle.s
+	@echo ... classwork/time_difference.obj
+	@echo ... classwork/time_difference.i
+	@echo ... classwork/time_difference.s
 .PHONY : help
 
 

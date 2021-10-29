@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/square_and_inscribed_circle.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/time_difference.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">

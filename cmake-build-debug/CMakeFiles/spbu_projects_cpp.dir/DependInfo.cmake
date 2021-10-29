@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/homework/square_and_inscribed_circle.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/square_and_inscribed_circle.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/classwork/time_difference.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/time_difference.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
