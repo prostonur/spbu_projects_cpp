@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/homework/two_elements_max_sum.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/homework/is_arithmetic_progression.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/two_elements_max_sum.obj: homework/two_elements_max_sum.cpp.obj
-.PHONY : homework/two_elements_max_sum.obj
+homework/is_arithmetic_progression.obj: homework/is_arithmetic_progression.cpp.obj
+.PHONY : homework/is_arithmetic_progression.obj
 
 # target to build an object file
-homework/two_elements_max_sum.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.obj
-.PHONY : homework/two_elements_max_sum.cpp.obj
+homework/is_arithmetic_progression.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj
+.PHONY : homework/is_arithmetic_progression.cpp.obj
 
-homework/two_elements_max_sum.i: homework/two_elements_max_sum.cpp.i
-.PHONY : homework/two_elements_max_sum.i
+homework/is_arithmetic_progression.i: homework/is_arithmetic_progression.cpp.i
+.PHONY : homework/is_arithmetic_progression.i
 
 # target to preprocess a source file
-homework/two_elements_max_sum.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.i
-.PHONY : homework/two_elements_max_sum.cpp.i
+homework/is_arithmetic_progression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.i
+.PHONY : homework/is_arithmetic_progression.cpp.i
 
-homework/two_elements_max_sum.s: homework/two_elements_max_sum.cpp.s
-.PHONY : homework/two_elements_max_sum.s
+homework/is_arithmetic_progression.s: homework/is_arithmetic_progression.cpp.s
+.PHONY : homework/is_arithmetic_progression.s
 
 # target to generate assembly for a file
-homework/two_elements_max_sum.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.s
-.PHONY : homework/two_elements_max_sum.cpp.s
+homework/is_arithmetic_progression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.s
+.PHONY : homework/is_arithmetic_progression.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/two_elements_max_sum.obj
-	@echo ... homework/two_elements_max_sum.i
-	@echo ... homework/two_elements_max_sum.s
+	@echo ... homework/is_arithmetic_progression.obj
+	@echo ... homework/is_arithmetic_progression.i
+	@echo ... homework/is_arithmetic_progression.s
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"
