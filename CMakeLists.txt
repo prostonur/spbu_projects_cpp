@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp homework/collapsing_array.cpp)
+add_executable(spbu_projects_cpp homework/two_elements_max_sum.cpp)

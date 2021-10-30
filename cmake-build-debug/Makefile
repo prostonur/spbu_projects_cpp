@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/collapsing_array.obj: homework/collapsing_array.cpp.obj
-.PHONY : homework/collapsing_array.obj
+homework/two_elements_max_sum.obj: homework/two_elements_max_sum.cpp.obj
+.PHONY : homework/two_elements_max_sum.obj
 
 # target to build an object file
-homework/collapsing_array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.obj
-.PHONY : homework/collapsing_array.cpp.obj
+homework/two_elements_max_sum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.obj
+.PHONY : homework/two_elements_max_sum.cpp.obj
 
-homework/collapsing_array.i: homework/collapsing_array.cpp.i
-.PHONY : homework/collapsing_array.i
+homework/two_elements_max_sum.i: homework/two_elements_max_sum.cpp.i
+.PHONY : homework/two_elements_max_sum.i
 
 # target to preprocess a source file
-homework/collapsing_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.i
-.PHONY : homework/collapsing_array.cpp.i
+homework/two_elements_max_sum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.i
+.PHONY : homework/two_elements_max_sum.cpp.i
 
-homework/collapsing_array.s: homework/collapsing_array.cpp.s
-.PHONY : homework/collapsing_array.s
+homework/two_elements_max_sum.s: homework/two_elements_max_sum.cpp.s
+.PHONY : homework/two_elements_max_sum.s
 
 # target to generate assembly for a file
-homework/collapsing_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.s
-.PHONY : homework/collapsing_array.cpp.s
+homework/two_elements_max_sum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/two_elements_max_sum.cpp.s
+.PHONY : homework/two_elements_max_sum.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/collapsing_array.obj
-	@echo ... homework/collapsing_array.i
-	@echo ... homework/collapsing_array.s
+	@echo ... homework/two_elements_max_sum.obj
+	@echo ... homework/two_elements_max_sum.i
+	@echo ... homework/two_elements_max_sum.s
 .PHONY : help
 
 
