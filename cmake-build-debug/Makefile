@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/hex_char_system.obj: classwork/hex_char_system.cpp.obj
-.PHONY : classwork/hex_char_system.obj
+homework/collapsing_array.obj: homework/collapsing_array.cpp.obj
+.PHONY : homework/collapsing_array.obj
 
 # target to build an object file
-classwork/hex_char_system.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.obj
-.PHONY : classwork/hex_char_system.cpp.obj
+homework/collapsing_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.obj
+.PHONY : homework/collapsing_array.cpp.obj
 
-classwork/hex_char_system.i: classwork/hex_char_system.cpp.i
-.PHONY : classwork/hex_char_system.i
+homework/collapsing_array.i: homework/collapsing_array.cpp.i
+.PHONY : homework/collapsing_array.i
 
 # target to preprocess a source file
-classwork/hex_char_system.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.i
-.PHONY : classwork/hex_char_system.cpp.i
+homework/collapsing_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.i
+.PHONY : homework/collapsing_array.cpp.i
 
-classwork/hex_char_system.s: classwork/hex_char_system.cpp.s
-.PHONY : classwork/hex_char_system.s
+homework/collapsing_array.s: homework/collapsing_array.cpp.s
+.PHONY : homework/collapsing_array.s
 
 # target to generate assembly for a file
-classwork/hex_char_system.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.s
-.PHONY : classwork/hex_char_system.cpp.s
+homework/collapsing_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.s
+.PHONY : homework/collapsing_array.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/hex_char_system.obj
-	@echo ... classwork/hex_char_system.i
-	@echo ... classwork/hex_char_system.s
+	@echo ... homework/collapsing_array.obj
+	@echo ... homework/collapsing_array.i
+	@echo ... homework/collapsing_array.s
 .PHONY : help
 
 

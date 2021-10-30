@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spbu_projects_cpp.dir/classwork/hex_char_system.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/homework/collapsing_array.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"

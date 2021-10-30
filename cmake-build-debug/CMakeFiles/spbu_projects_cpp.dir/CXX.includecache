@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/classwork/hex_char_system.cpp
+C:/My Projects C++/spbu projects cpp/homework/collapsing_array.cpp
 iostream
+-
+cmath
 -
 
