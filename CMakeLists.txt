@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp homework/is_arithmetic_progression.cpp)
+add_executable(spbu_projects_cpp homework/inverted_tower.cpp)

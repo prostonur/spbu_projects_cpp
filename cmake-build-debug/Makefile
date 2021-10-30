@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/is_arithmetic_progression.obj: homework/is_arithmetic_progression.cpp.obj
-.PHONY : homework/is_arithmetic_progression.obj
+homework/inverted_tower.obj: homework/inverted_tower.cpp.obj
+.PHONY : homework/inverted_tower.obj
 
 # target to build an object file
-homework/is_arithmetic_progression.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj
-.PHONY : homework/is_arithmetic_progression.cpp.obj
+homework/inverted_tower.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj
+.PHONY : homework/inverted_tower.cpp.obj
 
-homework/is_arithmetic_progression.i: homework/is_arithmetic_progression.cpp.i
-.PHONY : homework/is_arithmetic_progression.i
+homework/inverted_tower.i: homework/inverted_tower.cpp.i
+.PHONY : homework/inverted_tower.i
 
 # target to preprocess a source file
-homework/is_arithmetic_progression.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.i
-.PHONY : homework/is_arithmetic_progression.cpp.i
+homework/inverted_tower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.i
+.PHONY : homework/inverted_tower.cpp.i
 
-homework/is_arithmetic_progression.s: homework/is_arithmetic_progression.cpp.s
-.PHONY : homework/is_arithmetic_progression.s
+homework/inverted_tower.s: homework/inverted_tower.cpp.s
+.PHONY : homework/inverted_tower.s
 
 # target to generate assembly for a file
-homework/is_arithmetic_progression.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.s
-.PHONY : homework/is_arithmetic_progression.cpp.s
+homework/inverted_tower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.s
+.PHONY : homework/inverted_tower.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/is_arithmetic_progression.obj
-	@echo ... homework/is_arithmetic_progression.i
-	@echo ... homework/is_arithmetic_progression.s
+	@echo ... homework/inverted_tower.obj
+	@echo ... homework/inverted_tower.i
+	@echo ... homework/inverted_tower.s
 .PHONY : help
 
 

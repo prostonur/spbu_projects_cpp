@@ -65,27 +65,27 @@ include CMakeFiles/spbu_projects_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spbu_projects_cpp.dir/flags.make
 
-CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj: ../homework/is_arithmetic_progression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\homework\is_arithmetic_progression.cpp.obj -c "C:\My Projects C++\spbu projects cpp\homework\is_arithmetic_progression.cpp"
+CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj: ../homework/inverted_tower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\homework\inverted_tower.cpp.obj -c "C:\My Projects C++\spbu projects cpp\homework\inverted_tower.cpp"
 
-CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\homework\is_arithmetic_progression.cpp" > CMakeFiles\spbu_projects_cpp.dir\homework\is_arithmetic_progression.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\My Projects C++\spbu projects cpp\homework\inverted_tower.cpp" > CMakeFiles\spbu_projects_cpp.dir\homework\inverted_tower.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\homework\is_arithmetic_progression.cpp" -o CMakeFiles\spbu_projects_cpp.dir\homework\is_arithmetic_progression.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\My Projects C++\spbu projects cpp\homework\inverted_tower.cpp" -o CMakeFiles\spbu_projects_cpp.dir\homework\inverted_tower.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
-"CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/homework/is_arithmetic_progression.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp
