@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/inverted_tower.cpp
+C:/My Projects C++/spbu projects cpp/homework/translate_number.cpp
 iostream
+-
+cstring
+-
+clocale
 -
 

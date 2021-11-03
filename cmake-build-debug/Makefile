@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/inverted_tower.obj: homework/inverted_tower.cpp.obj
-.PHONY : homework/inverted_tower.obj
+homework/translate_number.obj: homework/translate_number.cpp.obj
+.PHONY : homework/translate_number.obj
 
 # target to build an object file
-homework/inverted_tower.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.obj
-.PHONY : homework/inverted_tower.cpp.obj
+homework/translate_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.obj
+.PHONY : homework/translate_number.cpp.obj
 
-homework/inverted_tower.i: homework/inverted_tower.cpp.i
-.PHONY : homework/inverted_tower.i
+homework/translate_number.i: homework/translate_number.cpp.i
+.PHONY : homework/translate_number.i
 
 # target to preprocess a source file
-homework/inverted_tower.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.i
-.PHONY : homework/inverted_tower.cpp.i
+homework/translate_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.i
+.PHONY : homework/translate_number.cpp.i
 
-homework/inverted_tower.s: homework/inverted_tower.cpp.s
-.PHONY : homework/inverted_tower.s
+homework/translate_number.s: homework/translate_number.cpp.s
+.PHONY : homework/translate_number.s
 
 # target to generate assembly for a file
-homework/inverted_tower.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/inverted_tower.cpp.s
-.PHONY : homework/inverted_tower.cpp.s
+homework/translate_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.s
+.PHONY : homework/translate_number.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/inverted_tower.obj
-	@echo ... homework/inverted_tower.i
-	@echo ... homework/inverted_tower.s
+	@echo ... homework/translate_number.obj
+	@echo ... homework/translate_number.i
+	@echo ... homework/translate_number.s
 .PHONY : help
 
 
