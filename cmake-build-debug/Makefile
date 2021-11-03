@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/translate_number.obj: homework/translate_number.cpp.obj
-.PHONY : homework/translate_number.obj
+homework/hole_in_array.obj: homework/hole_in_array.cpp.obj
+.PHONY : homework/hole_in_array.obj
 
 # target to build an object file
-homework/translate_number.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.obj
-.PHONY : homework/translate_number.cpp.obj
+homework/hole_in_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.obj
+.PHONY : homework/hole_in_array.cpp.obj
 
-homework/translate_number.i: homework/translate_number.cpp.i
-.PHONY : homework/translate_number.i
+homework/hole_in_array.i: homework/hole_in_array.cpp.i
+.PHONY : homework/hole_in_array.i
 
 # target to preprocess a source file
-homework/translate_number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.i
-.PHONY : homework/translate_number.cpp.i
+homework/hole_in_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.i
+.PHONY : homework/hole_in_array.cpp.i
 
-homework/translate_number.s: homework/translate_number.cpp.s
-.PHONY : homework/translate_number.s
+homework/hole_in_array.s: homework/hole_in_array.cpp.s
+.PHONY : homework/hole_in_array.s
 
 # target to generate assembly for a file
-homework/translate_number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/translate_number.cpp.s
-.PHONY : homework/translate_number.cpp.s
+homework/hole_in_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.s
+.PHONY : homework/hole_in_array.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/translate_number.obj
-	@echo ... homework/translate_number.i
-	@echo ... homework/translate_number.s
+	@echo ... homework/hole_in_array.obj
+	@echo ... homework/hole_in_array.i
+	@echo ... homework/hole_in_array.s
 .PHONY : help
 
 

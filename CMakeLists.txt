@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp homework/translate_number.cpp)
+add_executable(spbu_projects_cpp homework/hole_in_array.cpp)

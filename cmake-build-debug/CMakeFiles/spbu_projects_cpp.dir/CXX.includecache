@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/translate_number.cpp
+C:/My Projects C++/spbu projects cpp/homework/hole_in_array.cpp
 iostream
 -
-cstring
+random
 -
-clocale
+algorithm
 -
 
