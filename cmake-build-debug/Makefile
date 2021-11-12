@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/fill_matrix_snake.obj: classwork/fill_matrix_snake.cpp.obj
-.PHONY : classwork/fill_matrix_snake.obj
+classwork/fiil_random_matrix.obj: classwork/fiil_random_matrix.cpp.obj
+.PHONY : classwork/fiil_random_matrix.obj
 
 # target to build an object file
-classwork/fill_matrix_snake.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.obj
-.PHONY : classwork/fill_matrix_snake.cpp.obj
+classwork/fiil_random_matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.obj
+.PHONY : classwork/fiil_random_matrix.cpp.obj
 
-classwork/fill_matrix_snake.i: classwork/fill_matrix_snake.cpp.i
-.PHONY : classwork/fill_matrix_snake.i
+classwork/fiil_random_matrix.i: classwork/fiil_random_matrix.cpp.i
+.PHONY : classwork/fiil_random_matrix.i
 
 # target to preprocess a source file
-classwork/fill_matrix_snake.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.i
-.PHONY : classwork/fill_matrix_snake.cpp.i
+classwork/fiil_random_matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.i
+.PHONY : classwork/fiil_random_matrix.cpp.i
 
-classwork/fill_matrix_snake.s: classwork/fill_matrix_snake.cpp.s
-.PHONY : classwork/fill_matrix_snake.s
+classwork/fiil_random_matrix.s: classwork/fiil_random_matrix.cpp.s
+.PHONY : classwork/fiil_random_matrix.s
 
 # target to generate assembly for a file
-classwork/fill_matrix_snake.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.s
-.PHONY : classwork/fill_matrix_snake.cpp.s
+classwork/fiil_random_matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.s
+.PHONY : classwork/fiil_random_matrix.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/fill_matrix_snake.obj
-	@echo ... classwork/fill_matrix_snake.i
-	@echo ... classwork/fill_matrix_snake.s
+	@echo ... classwork/fiil_random_matrix.obj
+	@echo ... classwork/fiil_random_matrix.i
+	@echo ... classwork/fiil_random_matrix.s
 .PHONY : help
 
 

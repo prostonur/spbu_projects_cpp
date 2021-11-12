@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/classwork/fill_matrix_snake.cpp
+C:/My Projects C++/spbu projects cpp/classwork/fiil_random_matrix.cpp
 iostream
+-
+ctime
 -
 
