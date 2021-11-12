@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/func_snake_arr.obj: classwork/func_snake_arr.cpp.obj
-.PHONY : classwork/func_snake_arr.obj
+classwork/find_num_root_newton.obj: classwork/find_num_root_newton.cpp.obj
+.PHONY : classwork/find_num_root_newton.obj
 
 # target to build an object file
-classwork/func_snake_arr.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.obj
-.PHONY : classwork/func_snake_arr.cpp.obj
+classwork/find_num_root_newton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.obj
+.PHONY : classwork/find_num_root_newton.cpp.obj
 
-classwork/func_snake_arr.i: classwork/func_snake_arr.cpp.i
-.PHONY : classwork/func_snake_arr.i
+classwork/find_num_root_newton.i: classwork/find_num_root_newton.cpp.i
+.PHONY : classwork/find_num_root_newton.i
 
 # target to preprocess a source file
-classwork/func_snake_arr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.i
-.PHONY : classwork/func_snake_arr.cpp.i
+classwork/find_num_root_newton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.i
+.PHONY : classwork/find_num_root_newton.cpp.i
 
-classwork/func_snake_arr.s: classwork/func_snake_arr.cpp.s
-.PHONY : classwork/func_snake_arr.s
+classwork/find_num_root_newton.s: classwork/find_num_root_newton.cpp.s
+.PHONY : classwork/find_num_root_newton.s
 
 # target to generate assembly for a file
-classwork/func_snake_arr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.s
-.PHONY : classwork/func_snake_arr.cpp.s
+classwork/find_num_root_newton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.s
+.PHONY : classwork/find_num_root_newton.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/func_snake_arr.obj
-	@echo ... classwork/func_snake_arr.i
-	@echo ... classwork/func_snake_arr.s
+	@echo ... classwork/find_num_root_newton.obj
+	@echo ... classwork/find_num_root_newton.i
+	@echo ... classwork/find_num_root_newton.s
 .PHONY : help
 
 

@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/classwork/func_snake_arr.cpp
+C:/My Projects C++/spbu projects cpp/classwork/find_num_root_newton.cpp
 iostream
+-
+cmath
 -
 
