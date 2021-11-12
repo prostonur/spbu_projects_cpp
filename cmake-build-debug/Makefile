@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/fiil_random_matrix.obj: classwork/fiil_random_matrix.cpp.obj
-.PHONY : classwork/fiil_random_matrix.obj
+classwork/func_snake_arr.obj: classwork/func_snake_arr.cpp.obj
+.PHONY : classwork/func_snake_arr.obj
 
 # target to build an object file
-classwork/fiil_random_matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.obj
-.PHONY : classwork/fiil_random_matrix.cpp.obj
+classwork/func_snake_arr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.obj
+.PHONY : classwork/func_snake_arr.cpp.obj
 
-classwork/fiil_random_matrix.i: classwork/fiil_random_matrix.cpp.i
-.PHONY : classwork/fiil_random_matrix.i
+classwork/func_snake_arr.i: classwork/func_snake_arr.cpp.i
+.PHONY : classwork/func_snake_arr.i
 
 # target to preprocess a source file
-classwork/fiil_random_matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.i
-.PHONY : classwork/fiil_random_matrix.cpp.i
+classwork/func_snake_arr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.i
+.PHONY : classwork/func_snake_arr.cpp.i
 
-classwork/fiil_random_matrix.s: classwork/fiil_random_matrix.cpp.s
-.PHONY : classwork/fiil_random_matrix.s
+classwork/func_snake_arr.s: classwork/func_snake_arr.cpp.s
+.PHONY : classwork/func_snake_arr.s
 
 # target to generate assembly for a file
-classwork/fiil_random_matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.s
-.PHONY : classwork/fiil_random_matrix.cpp.s
+classwork/func_snake_arr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.s
+.PHONY : classwork/func_snake_arr.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/fiil_random_matrix.obj
-	@echo ... classwork/fiil_random_matrix.i
-	@echo ... classwork/fiil_random_matrix.s
+	@echo ... classwork/func_snake_arr.obj
+	@echo ... classwork/func_snake_arr.i
+	@echo ... classwork/func_snake_arr.s
 .PHONY : help
 
 

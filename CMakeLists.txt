@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp classwork/fiil_random_matrix.cpp)
+add_executable(spbu_projects_cpp classwork/func_snake_arr.cpp)

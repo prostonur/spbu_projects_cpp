@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/classwork/fiil_random_matrix.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/classwork/func_snake_arr.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/func_snake_arr.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
