@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/hole_in_array.obj: homework/hole_in_array.cpp.obj
-.PHONY : homework/hole_in_array.obj
+classwork/fill_matrix_snake.obj: classwork/fill_matrix_snake.cpp.obj
+.PHONY : classwork/fill_matrix_snake.obj
 
 # target to build an object file
-homework/hole_in_array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.obj
-.PHONY : homework/hole_in_array.cpp.obj
+classwork/fill_matrix_snake.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.obj
+.PHONY : classwork/fill_matrix_snake.cpp.obj
 
-homework/hole_in_array.i: homework/hole_in_array.cpp.i
-.PHONY : homework/hole_in_array.i
+classwork/fill_matrix_snake.i: classwork/fill_matrix_snake.cpp.i
+.PHONY : classwork/fill_matrix_snake.i
 
 # target to preprocess a source file
-homework/hole_in_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.i
-.PHONY : homework/hole_in_array.cpp.i
+classwork/fill_matrix_snake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.i
+.PHONY : classwork/fill_matrix_snake.cpp.i
 
-homework/hole_in_array.s: homework/hole_in_array.cpp.s
-.PHONY : homework/hole_in_array.s
+classwork/fill_matrix_snake.s: classwork/fill_matrix_snake.cpp.s
+.PHONY : classwork/fill_matrix_snake.s
 
 # target to generate assembly for a file
-homework/hole_in_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/hole_in_array.cpp.s
-.PHONY : homework/hole_in_array.cpp.s
+classwork/fill_matrix_snake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snake.cpp.s
+.PHONY : classwork/fill_matrix_snake.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/hole_in_array.obj
-	@echo ... homework/hole_in_array.i
-	@echo ... homework/hole_in_array.s
+	@echo ... classwork/fill_matrix_snake.obj
+	@echo ... classwork/fill_matrix_snake.i
+	@echo ... classwork/fill_matrix_snake.s
 .PHONY : help
 
 
