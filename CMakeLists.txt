@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp homework/3_ways_to_fill_matrix_and_reverse.cpp)
+add_executable(spbu_projects_cpp homework/1_n_cycle.cpp)

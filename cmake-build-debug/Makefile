@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/3_ways_to_fill_matrix_and_reverse.obj: homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.obj
+homework/1_n_cycle.obj: homework/1_n_cycle.cpp.obj
+.PHONY : homework/1_n_cycle.obj
 
 # target to build an object file
-homework/3_ways_to_fill_matrix_and_reverse.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
+homework/1_n_cycle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.obj
+.PHONY : homework/1_n_cycle.cpp.obj
 
-homework/3_ways_to_fill_matrix_and_reverse.i: homework/3_ways_to_fill_matrix_and_reverse.cpp.i
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.i
+homework/1_n_cycle.i: homework/1_n_cycle.cpp.i
+.PHONY : homework/1_n_cycle.i
 
 # target to preprocess a source file
-homework/3_ways_to_fill_matrix_and_reverse.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.i
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.i
+homework/1_n_cycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.i
+.PHONY : homework/1_n_cycle.cpp.i
 
-homework/3_ways_to_fill_matrix_and_reverse.s: homework/3_ways_to_fill_matrix_and_reverse.cpp.s
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.s
+homework/1_n_cycle.s: homework/1_n_cycle.cpp.s
+.PHONY : homework/1_n_cycle.s
 
 # target to generate assembly for a file
-homework/3_ways_to_fill_matrix_and_reverse.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.s
-.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.s
+homework/1_n_cycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.s
+.PHONY : homework/1_n_cycle.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/3_ways_to_fill_matrix_and_reverse.obj
-	@echo ... homework/3_ways_to_fill_matrix_and_reverse.i
-	@echo ... homework/3_ways_to_fill_matrix_and_reverse.s
+	@echo ... homework/1_n_cycle.obj
+	@echo ... homework/1_n_cycle.i
+	@echo ... homework/1_n_cycle.s
 .PHONY : help
 
 
