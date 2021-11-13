@@ -43,7 +43,32 @@ bool check(const std::string& source, int count_sym) {
     }
     return true;
 }
-
+//int checking(const std::string& str) {
+//    int count_sym = 1;
+//    std::string substring;
+//    bool check = true;
+//    while (count_sym != str.size() / 2) {
+//        for (size_t i = 0; i < count_sym; ++i)
+//            substring += str[i];
+//        std::string temp_substring;
+//        for (size_t i = count_sym; i < str.size(); ++i) {
+//            if (temp_substring.size() != count_sym)
+//                temp_substring += str[i];
+//            else {
+//                if (substring != temp_substring) {
+//                    check = false;
+//                    break;
+//                }
+//                check = true;
+//                temp_substring = str[i];
+//            }
+//        }
+//        if (check) return substring.size();
+//        substring = "";
+//        count_sym++;
+//    }
+//    return -1;
+//}
 struct three {
     int x;
     int y;
@@ -78,11 +103,39 @@ std::string working_str(int n) {
     return out_str;
 }
 // iterate over all substrings up to half lines
+//int cycle(int n) {
+//    return checking(working_str(n));
+////    std::string work_str = working_str(n);
+////    int count_sym = 1;
+////    while (count_sym < work_str.size() / 2) {
+////        if (check(work_str, count_sym)) return count_sym;
+////        count_sym++;
+////    }
+////    return -1;
+//}
 int cycle(int n) {
-    std::string work_str = working_str(n);
-    int count_sym = 2;
-    while (count_sym < work_str.size() / 2) {
-        if (check(work_str, count_sym)) return count_sym;
+    std::string str = working_str(n);
+    int count_sym = 1;
+    std::string substring;
+    bool check = true;
+    while (count_sym != str.size() / 2) {
+        for (size_t i = 0; i < count_sym; ++i)
+            substring += str[i];
+        std::string temp_substring;
+        for (size_t i = count_sym; i < str.size() / 2; ++i) {
+            if (temp_substring.size() != count_sym)
+                temp_substring += str[i];
+            else {
+                if (substring != temp_substring) {
+                    check = false;
+                    break;
+                }
+                check = true;
+                temp_substring = str[i];
+            }
+        }
+        if (check) return substring.size();
+        substring = "";
         count_sym++;
     }
     return -1;
