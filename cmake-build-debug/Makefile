@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/fill_matrix_zigzag.obj: homework/fill_matrix_zigzag.cpp.obj
-.PHONY : homework/fill_matrix_zigzag.obj
+homework/3_ways_to_fill_matrix_and_reverse.obj: homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.obj
 
 # target to build an object file
-homework/fill_matrix_zigzag.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.obj
-.PHONY : homework/fill_matrix_zigzag.cpp.obj
+homework/3_ways_to_fill_matrix_and_reverse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.obj
 
-homework/fill_matrix_zigzag.i: homework/fill_matrix_zigzag.cpp.i
-.PHONY : homework/fill_matrix_zigzag.i
+homework/3_ways_to_fill_matrix_and_reverse.i: homework/3_ways_to_fill_matrix_and_reverse.cpp.i
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.i
 
 # target to preprocess a source file
-homework/fill_matrix_zigzag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.i
-.PHONY : homework/fill_matrix_zigzag.cpp.i
+homework/3_ways_to_fill_matrix_and_reverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.i
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.i
 
-homework/fill_matrix_zigzag.s: homework/fill_matrix_zigzag.cpp.s
-.PHONY : homework/fill_matrix_zigzag.s
+homework/3_ways_to_fill_matrix_and_reverse.s: homework/3_ways_to_fill_matrix_and_reverse.cpp.s
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.s
 
 # target to generate assembly for a file
-homework/fill_matrix_zigzag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.s
-.PHONY : homework/fill_matrix_zigzag.cpp.s
+homework/3_ways_to_fill_matrix_and_reverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.s
+.PHONY : homework/3_ways_to_fill_matrix_and_reverse.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/fill_matrix_zigzag.obj
-	@echo ... homework/fill_matrix_zigzag.i
-	@echo ... homework/fill_matrix_zigzag.s
+	@echo ... homework/3_ways_to_fill_matrix_and_reverse.obj
+	@echo ... homework/3_ways_to_fill_matrix_and_reverse.i
+	@echo ... homework/3_ways_to_fill_matrix_and_reverse.s
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/homework/fill_matrix_zigzag.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.obj"
+  "C:/My Projects C++/spbu projects cpp/homework/3_ways_to_fill_matrix_and_reverse.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/3_ways_to_fill_matrix_and_reverse.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

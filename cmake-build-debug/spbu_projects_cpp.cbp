@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/fill_matrix_zigzag.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/3_ways_to_fill_matrix_and_reverse.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">
