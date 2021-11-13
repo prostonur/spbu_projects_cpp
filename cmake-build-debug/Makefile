@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/fill_random_matrix_right_border.obj: classwork/fill_random_matrix_right_border.cpp.obj
-.PHONY : classwork/fill_random_matrix_right_border.obj
+homework/shift_array.obj: homework/shift_array.cpp.obj
+.PHONY : homework/shift_array.obj
 
 # target to build an object file
-classwork/fill_random_matrix_right_border.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.obj
-.PHONY : classwork/fill_random_matrix_right_border.cpp.obj
+homework/shift_array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.obj
+.PHONY : homework/shift_array.cpp.obj
 
-classwork/fill_random_matrix_right_border.i: classwork/fill_random_matrix_right_border.cpp.i
-.PHONY : classwork/fill_random_matrix_right_border.i
+homework/shift_array.i: homework/shift_array.cpp.i
+.PHONY : homework/shift_array.i
 
 # target to preprocess a source file
-classwork/fill_random_matrix_right_border.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.i
-.PHONY : classwork/fill_random_matrix_right_border.cpp.i
+homework/shift_array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.i
+.PHONY : homework/shift_array.cpp.i
 
-classwork/fill_random_matrix_right_border.s: classwork/fill_random_matrix_right_border.cpp.s
-.PHONY : classwork/fill_random_matrix_right_border.s
+homework/shift_array.s: homework/shift_array.cpp.s
+.PHONY : homework/shift_array.s
 
 # target to generate assembly for a file
-classwork/fill_random_matrix_right_border.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.s
-.PHONY : classwork/fill_random_matrix_right_border.cpp.s
+homework/shift_array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.s
+.PHONY : homework/shift_array.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/fill_random_matrix_right_border.obj
-	@echo ... classwork/fill_random_matrix_right_border.i
-	@echo ... classwork/fill_random_matrix_right_border.s
+	@echo ... homework/shift_array.obj
+	@echo ... homework/shift_array.i
+	@echo ... homework/shift_array.s
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/fill_random_matrix_right_border.cpp">
+		<Unit filename="C:/My Projects C++/spbu projects cpp/homework/shift_array.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
 		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">
