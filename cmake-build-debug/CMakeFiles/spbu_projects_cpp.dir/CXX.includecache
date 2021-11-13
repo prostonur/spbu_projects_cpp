@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/classwork/find_num_root_newton.cpp
+C:/My Projects C++/spbu projects cpp/classwork/fill_random_matrix_right_border.cpp
 iostream
 -
-cmath
+ctime
+-
+iomanip
 -
 

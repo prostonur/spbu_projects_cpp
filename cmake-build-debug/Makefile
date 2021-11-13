@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/find_num_root_newton.obj: classwork/find_num_root_newton.cpp.obj
-.PHONY : classwork/find_num_root_newton.obj
+classwork/fill_random_matrix_right_border.obj: classwork/fill_random_matrix_right_border.cpp.obj
+.PHONY : classwork/fill_random_matrix_right_border.obj
 
 # target to build an object file
-classwork/find_num_root_newton.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.obj
-.PHONY : classwork/find_num_root_newton.cpp.obj
+classwork/fill_random_matrix_right_border.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.obj
+.PHONY : classwork/fill_random_matrix_right_border.cpp.obj
 
-classwork/find_num_root_newton.i: classwork/find_num_root_newton.cpp.i
-.PHONY : classwork/find_num_root_newton.i
+classwork/fill_random_matrix_right_border.i: classwork/fill_random_matrix_right_border.cpp.i
+.PHONY : classwork/fill_random_matrix_right_border.i
 
 # target to preprocess a source file
-classwork/find_num_root_newton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.i
-.PHONY : classwork/find_num_root_newton.cpp.i
+classwork/fill_random_matrix_right_border.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.i
+.PHONY : classwork/fill_random_matrix_right_border.cpp.i
 
-classwork/find_num_root_newton.s: classwork/find_num_root_newton.cpp.s
-.PHONY : classwork/find_num_root_newton.s
+classwork/fill_random_matrix_right_border.s: classwork/fill_random_matrix_right_border.cpp.s
+.PHONY : classwork/fill_random_matrix_right_border.s
 
 # target to generate assembly for a file
-classwork/find_num_root_newton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.s
-.PHONY : classwork/find_num_root_newton.cpp.s
+classwork/fill_random_matrix_right_border.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_random_matrix_right_border.cpp.s
+.PHONY : classwork/fill_random_matrix_right_border.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/find_num_root_newton.obj
-	@echo ... classwork/find_num_root_newton.i
-	@echo ... classwork/find_num_root_newton.s
+	@echo ... classwork/fill_random_matrix_right_border.obj
+	@echo ... classwork/fill_random_matrix_right_border.i
+	@echo ... classwork/fill_random_matrix_right_border.s
 .PHONY : help
 
 
