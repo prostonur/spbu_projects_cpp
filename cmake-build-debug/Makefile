@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/fiil_random_matrix.obj: classwork/fiil_random_matrix.cpp.obj
-.PHONY : classwork/fiil_random_matrix.obj
+classwork/find_num_root_newton.obj: classwork/find_num_root_newton.cpp.obj
+.PHONY : classwork/find_num_root_newton.obj
 
 # target to build an object file
-classwork/fiil_random_matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.obj
-.PHONY : classwork/fiil_random_matrix.cpp.obj
+classwork/find_num_root_newton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.obj
+.PHONY : classwork/find_num_root_newton.cpp.obj
 
-classwork/fiil_random_matrix.i: classwork/fiil_random_matrix.cpp.i
-.PHONY : classwork/fiil_random_matrix.i
+classwork/find_num_root_newton.i: classwork/find_num_root_newton.cpp.i
+.PHONY : classwork/find_num_root_newton.i
 
 # target to preprocess a source file
-classwork/fiil_random_matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.i
-.PHONY : classwork/fiil_random_matrix.cpp.i
+classwork/find_num_root_newton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.i
+.PHONY : classwork/find_num_root_newton.cpp.i
 
-classwork/fiil_random_matrix.s: classwork/fiil_random_matrix.cpp.s
-.PHONY : classwork/fiil_random_matrix.s
+classwork/find_num_root_newton.s: classwork/find_num_root_newton.cpp.s
+.PHONY : classwork/find_num_root_newton.s
 
 # target to generate assembly for a file
-classwork/fiil_random_matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fiil_random_matrix.cpp.s
-.PHONY : classwork/fiil_random_matrix.cpp.s
+classwork/find_num_root_newton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.s
+.PHONY : classwork/find_num_root_newton.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/fiil_random_matrix.obj
-	@echo ... classwork/fiil_random_matrix.i
-	@echo ... classwork/fiil_random_matrix.s
+	@echo ... classwork/find_num_root_newton.obj
+	@echo ... classwork/find_num_root_newton.i
+	@echo ... classwork/find_num_root_newton.s
 .PHONY : help
 
 

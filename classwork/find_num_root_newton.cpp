@@ -1,6 +1,9 @@
+//Написать функцию нахождения корня из числа с помощью метода Ньютона: double mysqrt(double x, double eps=1e-6)
+
 #include <iostream>
 #include <cmath>
-//dynamic solution
+
+
 double mysqrt(double x, double eps = 1e-6) {
     double approximation = 1;
     double quotient = x;
@@ -21,12 +24,11 @@ double mysqrt(double x, double eps = 1e-6) {
             average2 = (approximation + quotient) / 2;
             check = true;
         }
-        //std::cout << average1 << ' ' << average2 << '\n';
     }
     return average1;
 }
 
 int main() {
-    std::cout << mysqrt(3) << '\n';
+    std::cout << mysqrt(2) << '\n';
 }
 
