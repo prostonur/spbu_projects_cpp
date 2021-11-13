@@ -1,27 +1,43 @@
+//Заполнить массив nxm (размеры вводит пользователь) случайными числами в диапазоне от 0 до 100000.
+//Вывести матрицу на экран, выровняв столбцы по левому краю.
+
 #include <iostream>
 #include <ctime>
+#include <iomanip>
+
+int size_num(int num) {
+    int size = 0;
+    while (num) {
+        size++;
+        num /= 10;
+    }
+    return size;
+}
+
 int main() {
     srand(time(nullptr));
     int n, m;
+    int max_num = INT_MIN;
     std::cout << "enter n, m: ";
     std::cin >> n >> m;
     int **arr = new int*[n];
     for (int i = 0; i < n; ++i)
         arr[i] = new int[m];
-    std::cout.width(5);
     for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j)
-            arr[i][j] = rand() % 1000;
+        for (int j = 0; j < m; ++j) {
+            arr[i][j] = rand() % 100000;
+            if (arr[i][j] > max_num)
+                max_num = arr[i][j];
+        }
     }
+    int wid = size_num(max_num);
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j)
-            std::cout << arr[i][j] << ' ';
+            std::cout << std::setw(wid) << std::left << arr[i][j] << ' ';
         std::cout << '\n';
     }
-
     for (int i = 0; i < n; ++i)
         delete[] arr[i];
     delete[] arr;
-
 }
 
