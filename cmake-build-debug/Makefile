@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/find_num_root_newton.obj: classwork/find_num_root_newton.cpp.obj
-.PHONY : classwork/find_num_root_newton.obj
+classwork/fill_matrix_snail.obj: classwork/fill_matrix_snail.cpp.obj
+.PHONY : classwork/fill_matrix_snail.obj
 
 # target to build an object file
-classwork/find_num_root_newton.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.obj
-.PHONY : classwork/find_num_root_newton.cpp.obj
+classwork/fill_matrix_snail.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snail.cpp.obj
+.PHONY : classwork/fill_matrix_snail.cpp.obj
 
-classwork/find_num_root_newton.i: classwork/find_num_root_newton.cpp.i
-.PHONY : classwork/find_num_root_newton.i
+classwork/fill_matrix_snail.i: classwork/fill_matrix_snail.cpp.i
+.PHONY : classwork/fill_matrix_snail.i
 
 # target to preprocess a source file
-classwork/find_num_root_newton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.i
-.PHONY : classwork/find_num_root_newton.cpp.i
+classwork/fill_matrix_snail.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snail.cpp.i
+.PHONY : classwork/fill_matrix_snail.cpp.i
 
-classwork/find_num_root_newton.s: classwork/find_num_root_newton.cpp.s
-.PHONY : classwork/find_num_root_newton.s
+classwork/fill_matrix_snail.s: classwork/fill_matrix_snail.cpp.s
+.PHONY : classwork/fill_matrix_snail.s
 
 # target to generate assembly for a file
-classwork/find_num_root_newton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/find_num_root_newton.cpp.s
-.PHONY : classwork/find_num_root_newton.cpp.s
+classwork/fill_matrix_snail.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/fill_matrix_snail.cpp.s
+.PHONY : classwork/fill_matrix_snail.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/find_num_root_newton.obj
-	@echo ... classwork/find_num_root_newton.i
-	@echo ... classwork/find_num_root_newton.s
+	@echo ... classwork/fill_matrix_snail.obj
+	@echo ... classwork/fill_matrix_snail.i
+	@echo ... classwork/fill_matrix_snail.s
 .PHONY : help
 
 

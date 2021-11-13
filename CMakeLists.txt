@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp classwork/find_num_root_newton.cpp)
+add_executable(spbu_projects_cpp classwork/fill_matrix_snail.cpp)
