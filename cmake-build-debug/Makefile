@@ -128,29 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/shift_array.obj: homework/shift_array.cpp.obj
-.PHONY : homework/shift_array.obj
+homework/fill_matrix_zigzag.obj: homework/fill_matrix_zigzag.cpp.obj
+.PHONY : homework/fill_matrix_zigzag.obj
 
 # target to build an object file
-homework/shift_array.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.obj
-.PHONY : homework/shift_array.cpp.obj
+homework/fill_matrix_zigzag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.obj
+.PHONY : homework/fill_matrix_zigzag.cpp.obj
 
-homework/shift_array.i: homework/shift_array.cpp.i
-.PHONY : homework/shift_array.i
+homework/fill_matrix_zigzag.i: homework/fill_matrix_zigzag.cpp.i
+.PHONY : homework/fill_matrix_zigzag.i
 
 # target to preprocess a source file
-homework/shift_array.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.i
-.PHONY : homework/shift_array.cpp.i
+homework/fill_matrix_zigzag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.i
+.PHONY : homework/fill_matrix_zigzag.cpp.i
 
-homework/shift_array.s: homework/shift_array.cpp.s
-.PHONY : homework/shift_array.s
+homework/fill_matrix_zigzag.s: homework/fill_matrix_zigzag.cpp.s
+.PHONY : homework/fill_matrix_zigzag.s
 
 # target to generate assembly for a file
-homework/shift_array.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/shift_array.cpp.s
-.PHONY : homework/shift_array.cpp.s
+homework/fill_matrix_zigzag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/fill_matrix_zigzag.cpp.s
+.PHONY : homework/fill_matrix_zigzag.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/shift_array.obj
-	@echo ... homework/shift_array.i
-	@echo ... homework/shift_array.s
+	@echo ... homework/fill_matrix_zigzag.obj
+	@echo ... homework/fill_matrix_zigzag.i
+	@echo ... homework/fill_matrix_zigzag.s
 .PHONY : help
 
 
