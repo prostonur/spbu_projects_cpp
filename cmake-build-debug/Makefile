@@ -128,29 +128,53 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-homework/1_n_cycle.obj: homework/1_n_cycle.cpp.obj
-.PHONY : homework/1_n_cycle.obj
+classwork/Matrix_Calc/matrix.obj: classwork/Matrix_Calc/matrix.cpp.obj
+.PHONY : classwork/Matrix_Calc/matrix.obj
 
 # target to build an object file
-homework/1_n_cycle.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.obj
-.PHONY : homework/1_n_cycle.cpp.obj
+classwork/Matrix_Calc/matrix.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.obj
+.PHONY : classwork/Matrix_Calc/matrix.cpp.obj
 
-homework/1_n_cycle.i: homework/1_n_cycle.cpp.i
-.PHONY : homework/1_n_cycle.i
+classwork/Matrix_Calc/matrix.i: classwork/Matrix_Calc/matrix.cpp.i
+.PHONY : classwork/Matrix_Calc/matrix.i
 
 # target to preprocess a source file
-homework/1_n_cycle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.i
-.PHONY : homework/1_n_cycle.cpp.i
+classwork/Matrix_Calc/matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.i
+.PHONY : classwork/Matrix_Calc/matrix.cpp.i
 
-homework/1_n_cycle.s: homework/1_n_cycle.cpp.s
-.PHONY : homework/1_n_cycle.s
+classwork/Matrix_Calc/matrix.s: classwork/Matrix_Calc/matrix.cpp.s
+.PHONY : classwork/Matrix_Calc/matrix.s
 
 # target to generate assembly for a file
-homework/1_n_cycle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.s
-.PHONY : homework/1_n_cycle.cpp.s
+classwork/Matrix_Calc/matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.s
+.PHONY : classwork/Matrix_Calc/matrix.cpp.s
+
+classwork/Matrix_Calc/matrix_calc.obj: classwork/Matrix_Calc/matrix_calc.cpp.obj
+.PHONY : classwork/Matrix_Calc/matrix_calc.obj
+
+# target to build an object file
+classwork/Matrix_Calc/matrix_calc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.obj
+.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.obj
+
+classwork/Matrix_Calc/matrix_calc.i: classwork/Matrix_Calc/matrix_calc.cpp.i
+.PHONY : classwork/Matrix_Calc/matrix_calc.i
+
+# target to preprocess a source file
+classwork/Matrix_Calc/matrix_calc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.i
+.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.i
+
+classwork/Matrix_Calc/matrix_calc.s: classwork/Matrix_Calc/matrix_calc.cpp.s
+.PHONY : classwork/Matrix_Calc/matrix_calc.s
+
+# target to generate assembly for a file
+classwork/Matrix_Calc/matrix_calc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.s
+.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... homework/1_n_cycle.obj
-	@echo ... homework/1_n_cycle.i
-	@echo ... homework/1_n_cycle.s
+	@echo ... classwork/Matrix_Calc/matrix.obj
+	@echo ... classwork/Matrix_Calc/matrix.i
+	@echo ... classwork/Matrix_Calc/matrix.s
+	@echo ... classwork/Matrix_Calc/matrix_calc.obj
+	@echo ... classwork/Matrix_Calc/matrix_calc.i
+	@echo ... classwork/Matrix_Calc/matrix_calc.s
 .PHONY : help
 
 

@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/My Projects C++/spbu projects cpp/homework/1_n_cycle.cpp
+C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix.h
 iostream
 -
-string
--
+
+C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix_calc.cpp
+matrix.h
+C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix.h
 

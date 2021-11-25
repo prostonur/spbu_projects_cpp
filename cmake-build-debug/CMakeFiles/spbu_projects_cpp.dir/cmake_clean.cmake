@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spbu_projects_cpp.dir/homework/1_n_cycle.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.obj"
+  "CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.obj"
   "libspbu_projects_cpp.dll.a"
   "spbu_projects_cpp.exe"
   "spbu_projects_cpp.exe.manifest"
