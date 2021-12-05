@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\My Projects C++\spbu projects cpp"
+CMAKE_SOURCE_DIR = C:\My_Projects_C++\spbu_projects_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\My Projects C++\spbu projects cpp\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" "C:\My Projects C++\spbu projects cpp\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\My Projects C++\spbu projects cpp\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,53 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/Matrix_Calc/matrix.obj: classwork/Matrix_Calc/matrix.cpp.obj
-.PHONY : classwork/Matrix_Calc/matrix.obj
+homework/splitting_into_16_bit.obj: homework/splitting_into_16_bit.cpp.obj
+.PHONY : homework/splitting_into_16_bit.obj
 
 # target to build an object file
-classwork/Matrix_Calc/matrix.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.obj
-.PHONY : classwork/Matrix_Calc/matrix.cpp.obj
+homework/splitting_into_16_bit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/splitting_into_16_bit.cpp.obj
+.PHONY : homework/splitting_into_16_bit.cpp.obj
 
-classwork/Matrix_Calc/matrix.i: classwork/Matrix_Calc/matrix.cpp.i
-.PHONY : classwork/Matrix_Calc/matrix.i
-
-# target to preprocess a source file
-classwork/Matrix_Calc/matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.i
-.PHONY : classwork/Matrix_Calc/matrix.cpp.i
-
-classwork/Matrix_Calc/matrix.s: classwork/Matrix_Calc/matrix.cpp.s
-.PHONY : classwork/Matrix_Calc/matrix.s
-
-# target to generate assembly for a file
-classwork/Matrix_Calc/matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.s
-.PHONY : classwork/Matrix_Calc/matrix.cpp.s
-
-classwork/Matrix_Calc/matrix_calc.obj: classwork/Matrix_Calc/matrix_calc.cpp.obj
-.PHONY : classwork/Matrix_Calc/matrix_calc.obj
-
-# target to build an object file
-classwork/Matrix_Calc/matrix_calc.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.obj
-.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.obj
-
-classwork/Matrix_Calc/matrix_calc.i: classwork/Matrix_Calc/matrix_calc.cpp.i
-.PHONY : classwork/Matrix_Calc/matrix_calc.i
+homework/splitting_into_16_bit.i: homework/splitting_into_16_bit.cpp.i
+.PHONY : homework/splitting_into_16_bit.i
 
 # target to preprocess a source file
-classwork/Matrix_Calc/matrix_calc.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.i
-.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.i
+homework/splitting_into_16_bit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/splitting_into_16_bit.cpp.i
+.PHONY : homework/splitting_into_16_bit.cpp.i
 
-classwork/Matrix_Calc/matrix_calc.s: classwork/Matrix_Calc/matrix_calc.cpp.s
-.PHONY : classwork/Matrix_Calc/matrix_calc.s
+homework/splitting_into_16_bit.s: homework/splitting_into_16_bit.cpp.s
+.PHONY : homework/splitting_into_16_bit.s
 
 # target to generate assembly for a file
-classwork/Matrix_Calc/matrix_calc.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.s
-.PHONY : classwork/Matrix_Calc/matrix_calc.cpp.s
+homework/splitting_into_16_bit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/splitting_into_16_bit.cpp.s
+.PHONY : homework/splitting_into_16_bit.cpp.s
 
 # Help Target
 help:
@@ -185,12 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/Matrix_Calc/matrix.obj
-	@echo ... classwork/Matrix_Calc/matrix.i
-	@echo ... classwork/Matrix_Calc/matrix.s
-	@echo ... classwork/Matrix_Calc/matrix_calc.obj
-	@echo ... classwork/Matrix_Calc/matrix_calc.i
-	@echo ... classwork/Matrix_Calc/matrix_calc.s
+	@echo ... homework/splitting_into_16_bit.obj
+	@echo ... homework/splitting_into_16_bit.i
+	@echo ... homework/splitting_into_16_bit.s
 .PHONY : help
 
 

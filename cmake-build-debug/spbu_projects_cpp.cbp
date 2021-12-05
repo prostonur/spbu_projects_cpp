@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/My Projects C++/spbu projects cpp/cmake-build-debug"/>
+				<Option working_dir="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/My Projects C++/spbu projects cpp/cmake-build-debug"/>
+				<Option working_dir="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spbu_projects_cpp">
-				<Option output="C:/My Projects C++/spbu projects cpp/cmake-build-debug/spbu_projects_cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/My Projects C++/spbu projects cpp/cmake-build-debug"/>
+				<Option output="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/spbu_projects_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 spbu_projects_cpp"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 spbu_projects_cpp"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="spbu_projects_cpp/fast">
-				<Option output="C:/My Projects C++/spbu projects cpp/cmake-build-debug/spbu_projects_cpp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/My Projects C++/spbu projects cpp/cmake-build-debug"/>
+				<Option output="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/spbu_projects_cpp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,33 +63,27 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 spbu_projects_cpp/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 spbu_projects_cpp/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/My Projects C++/spbu projects cpp/cmake-build-debug"/>
+				<Option working_dir="C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My Projects C++/spbu projects cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix.cpp">
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/homework/splitting_into_16_bit.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix.h">
-			<Option target="spbu_projects_cpp"/>
-		</Unit>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix_calc.cpp">
-			<Option target="spbu_projects_cpp"/>
-		</Unit>
-		<Unit filename="C:/My Projects C++/spbu projects cpp/CMakeLists.txt">
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix.cpp.obj"
-  "C:/My Projects C++/spbu projects cpp/classwork/Matrix_Calc/matrix_calc.cpp" "C:/My Projects C++/spbu projects cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/Matrix_Calc/matrix_calc.cpp.obj"
+  "C:/My_Projects_C++/spbu_projects_cpp/homework/splitting_into_16_bit.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/splitting_into_16_bit.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
