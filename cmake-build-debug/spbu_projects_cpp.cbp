@@ -92,6 +92,9 @@
 		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Utilities.cpp">
 			<Option target="spbu_projects_cpp"/>
 		</Unit>
+		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/homework/star.cpp">
+			<Option target="spbu_projects_cpp"/>
+		</Unit>
 		<Unit filename="C:/My_Projects_C++/spbu_projects_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

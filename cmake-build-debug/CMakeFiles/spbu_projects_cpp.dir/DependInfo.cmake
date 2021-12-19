@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Filtering.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj"
   "C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Source.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj"
   "C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Utilities.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj"
+  "C:/My_Projects_C++/spbu_projects_cpp/homework/star.cpp" "C:/My_Projects_C++/spbu_projects_cpp/cmake-build-debug/CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

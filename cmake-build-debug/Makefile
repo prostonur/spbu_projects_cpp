@@ -224,6 +224,30 @@ classwork/BMPImg/Utilities.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.s
 .PHONY : classwork/BMPImg/Utilities.cpp.s
 
+homework/star.obj: homework/star.cpp.obj
+.PHONY : homework/star.obj
+
+# target to build an object file
+homework/star.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj
+.PHONY : homework/star.cpp.obj
+
+homework/star.i: homework/star.cpp.i
+.PHONY : homework/star.i
+
+# target to preprocess a source file
+homework/star.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.i
+.PHONY : homework/star.cpp.i
+
+homework/star.s: homework/star.cpp.s
+.PHONY : homework/star.s
+
+# target to generate assembly for a file
+homework/star.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.s
+.PHONY : homework/star.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,6 +269,9 @@ help:
 	@echo ... classwork/BMPImg/Utilities.obj
 	@echo ... classwork/BMPImg/Utilities.i
 	@echo ... classwork/BMPImg/Utilities.s
+	@echo ... homework/star.obj
+	@echo ... homework/star.i
+	@echo ... homework/star.s
 .PHONY : help
 
 
