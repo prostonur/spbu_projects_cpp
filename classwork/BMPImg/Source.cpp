@@ -278,13 +278,13 @@ void median_filter(const char* path, int kernel_size) {
     int half = kernel_size / 2;
     int width = img.width;
     int height = img.height;
+    const int size = kernel_size * kernel_size;
+    int arr_g[size];
+    int arr_b[size];
+    int arr_r[size];
     for (size_t row = half; row < height - half; ++row)
         for (size_t col = half; col < width - half; ++col)
         {
-            const int size = 9;
-            int arr_g[size];
-            int arr_b[size];
-            int arr_r[size];
             for (size_t k_row = 0; k_row < kernel_size; ++k_row) {
                 for (size_t k_col = 0; k_col < kernel_size; ++k_col)
                 {
@@ -306,8 +306,8 @@ void median_filter(const char* path, int kernel_size) {
     deleteRgbImg(img);
 }
 int main() {
-    //median_filter("kidsnoise_s.bmp",3);
-    rotate("cb_warm.bmp",90);
+    median_filter("kidsnoise_s.bmp",3);
+    //rotate("cb_warm.bmp",90);
     //filt();
 //    pre_conv("kidsnoise_s.bmp");
 //    increase_sharpness("pre_filtered_img.bmp");
