@@ -3,4 +3,4 @@ project(spbu_projects_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(spbu_projects_cpp classwork/BMPImg/ColorBalancing.cpp classwork/BMPImg/Source.cpp classwork/BMPImg/Filtering.cpp classwork/BMPImg/Utilities.cpp homework/star.cpp)
+add_executable(spbu_projects_cpp  homework/16_bit_table/splitting_into_16_bit.cpp)

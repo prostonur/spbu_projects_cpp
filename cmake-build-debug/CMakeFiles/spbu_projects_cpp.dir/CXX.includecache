@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
-cstddef
--
-
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
-BmpStructures.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
-
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Source.cpp
+C:/My_Projects_C++/spbu_projects_cpp/homework/16_bit_table/splitting_into_16_bit.cpp
 iostream
 -
-BmpStructures.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
-ImgFunctions.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
+fstream
+-
 

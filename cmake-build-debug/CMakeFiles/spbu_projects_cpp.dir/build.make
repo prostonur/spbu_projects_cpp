@@ -65,92 +65,32 @@ include CMakeFiles/spbu_projects_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spbu_projects_cpp.dir/flags.make
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj: ../classwork/BMPImg/ColorBalancing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\ColorBalancing.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\ColorBalancing.cpp
+CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
+CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj: ../homework/16_bit_table/splitting_into_16_bit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\ColorBalancing.cpp > CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\ColorBalancing.cpp.i
+CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp > CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.i
 
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\ColorBalancing.cpp -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\ColorBalancing.cpp.s
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj: ../classwork/BMPImg/Source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Source.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Source.cpp
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Source.cpp > CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Source.cpp.i
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Source.cpp -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Source.cpp.s
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj: ../classwork/BMPImg/Filtering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Filtering.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Filtering.cpp
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Filtering.cpp > CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Filtering.cpp.i
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Filtering.cpp -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Filtering.cpp.s
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj: ../classwork/BMPImg/Utilities.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Utilities.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Utilities.cpp
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Utilities.cpp > CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Utilities.cpp.i
-
-CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\classwork\BMPImg\Utilities.cpp -o CMakeFiles\spbu_projects_cpp.dir\classwork\BMPImg\Utilities.cpp.s
-
-CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj: CMakeFiles/spbu_projects_cpp.dir/flags.make
-CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj: ../homework/star.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\spbu_projects_cpp.dir\homework\star.cpp.obj -c C:\My_Projects_C++\spbu_projects_cpp\homework\star.cpp
-
-CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\My_Projects_C++\spbu_projects_cpp\homework\star.cpp > CMakeFiles\spbu_projects_cpp.dir\homework\star.cpp.i
-
-CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\homework\star.cpp -o CMakeFiles\spbu_projects_cpp.dir\homework\star.cpp.s
+CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\My_Projects_C++\spbu_projects_cpp\homework\16_bit_table\splitting_into_16_bit.cpp -o CMakeFiles\spbu_projects_cpp.dir\homework\16_bit_table\splitting_into_16_bit.cpp.s
 
 # Object files for target spbu_projects_cpp
 spbu_projects_cpp_OBJECTS = \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj" \
-"CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj"
+"CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj"
 
 # External object files for target spbu_projects_cpp
 spbu_projects_cpp_EXTERNAL_OBJECTS =
 
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj
-spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/homework/star.cpp.obj
+spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/build.make
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/linklibs.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/objects1.rsp
 spbu_projects_cpp.exe: CMakeFiles/spbu_projects_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable spbu_projects_cpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\My_Projects_C++\spbu_projects_cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spbu_projects_cpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\spbu_projects_cpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
