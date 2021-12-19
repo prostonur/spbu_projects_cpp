@@ -9,7 +9,6 @@
 
 int main() {
     int r;
-    std::set<std::pair<int, int>> st;
     std::cout << "enter r: ";
     try {
         std::cin >> r;
@@ -19,52 +18,14 @@ int main() {
         std::cerr << ex.what();
         exit(1);
     }
-    int count = 0;
-    for (int x = -r; x <= r; ++x)
-        for (int y = -r; y <= r; ++y)
-            if (pow(x,2) + pow(y, 2) <= pow(r, 2))
-                st.emplace(std::make_pair(x,y));
-    std::cout << "number of dots: " << st.size() << '\n';
+    long long int count = 0;
+    for (int x = 0; x <= 2 * r; ++x) {
+        for (int y = 0; y <= 2 * r; ++y) {
+            if (((x - r) * (x - r) + (y - r) * (y - r)) <= r * r)
+                count++;
+        }
+    }
+    std::cout << "number of dots: " << count << '\n';
 }
 
-// another solution
-//int main() {
-//    int r;
-//    std::cout << "enter r: ";
-//    try {
-//        std::cin >> r;
-//        if (r > pow(10, 6))
-//            throw std::out_of_range("out of range\n");
-//    } catch (const std::exception& ex) {
-//        std::cerr << ex.what();
-//        exit(1);
-//    }
-//    bool arr[2 * r + 1][2 * r + 1];
-//    for (int x = -r; x <= r; ++x) {
-//        for (int y = -r; y <= r; ++y)
-//            arr[x][y] = false;
-//    }
-//    for (int x = -r; x <= r; ++x) {
-//        for (int y = -r; y <= r; ++y)
-//            std::cout << arr[x][y] << ' ';
-//        std::cout << '\n';
-//    }
-//
-//    int count = 0;
-//    for (int x = -r; x <= r; ++x)
-//        for (int y = -r; y <= r; ++y)
-//            if (pow(x,2) + pow(y, 2) <= pow(r, 2)) {
-//                if (!arr[x][y]) {
-//                    count++;
-//                    arr[x][y] = true;
-//                }
-//            }
-//    std::cout << "----------------------------------------\n";
-//    for (int x = -r; x <= r; ++x) {
-//        for (int y = -r; y <= r; ++y)
-//            std::cout << arr[x][y] << ' ';
-//        std::cout << '\n';
-//    }
-//    std::cout << "number of dots: " << count << '\n';
-//}
 

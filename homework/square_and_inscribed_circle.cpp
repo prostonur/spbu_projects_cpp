@@ -8,29 +8,29 @@
 //Сравнить вычисленные двумя способами значения числа pi. Можно сделать вывод какой способ сходится быстрее?
 
 #include <iostream>
-#include <random>
+#include <ctime>
 
 int main() {
-    int r, n;
-    int hit = 0, not_hit = 0;
-    std::random_device rd;
+    srand(time(0));
+    double r, n;
+    double hit = 0, not_hit = 0;
     std::cout << "enter r, n: ";
     std::cin >> r >> n;
-    std::uniform_int_distribution dist(0, r / 2);
     r /= 2;
-    while (n) {
-        int x = dist(rd);
-        int y = dist(rd);
+    int temp_n = n;
+    while (temp_n) {
+        double x = rand() % int(r);
+        double y = rand() % int(r);
         if (x * x + y * y <= r * r)
             hit++;
         else
             not_hit++;
-        n--;
-        //std::cout << x << ' ' << y << ' ' << hit << ' ' << not_hit << ' ' << n << '\n';
+        temp_n--;
+        //std::cout << x << ' ' << y << ' ' << hit << ' ' << not_hit << ' ' << n << ' ' << r << '\n';
     }
     if (!not_hit) {
         std::cout << "all the bullets hit the bull's eye!\n";
         exit(1);
     }
-    std::cout << 1. * hit / (r * r / 4) << ' ' << 3.14 / 4 << '\n';
+    std::cout << 1. * hit / n << ' ' << 3.14 / 4 << '\n';
 }

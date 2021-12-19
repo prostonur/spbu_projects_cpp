@@ -18,7 +18,7 @@ char letter(int num) {
     else
         return 'I';
 }
-//fix later
+
 int main() {
     int max_deg = 1000;
     int num;

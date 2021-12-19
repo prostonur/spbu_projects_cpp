@@ -46,7 +46,7 @@ void print_bin(int num) {
 }
 int main() {
     char string[] = "zvezda1zvezda11111";
-    char substring[16];
+    char substring[17];
     int count = 0;
     int iter_substring = 0;
     int num = 16;
