@@ -10,16 +10,6 @@ C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
 cstddef
 -
 
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ColorBalancing.cpp
-ImgFunctions.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
-
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Filtering.cpp
-ImgFunctions.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
-cmath
--
-
 C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
 BmpStructures.h
 C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
@@ -31,14 +21,4 @@ BmpStructures.h
 C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/BmpStructures.h
 ImgFunctions.h
 C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
-
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/Utilities.cpp
-ImgFunctions.h
-C:/My_Projects_C++/spbu_projects_cpp/classwork/BMPImg/ImgFunctions.h
-fstream
--
-stdexcept
--
-iostream
--
 

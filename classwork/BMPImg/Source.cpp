@@ -50,14 +50,14 @@ void testGrayworld()
 }
 
 //Box filter example
-void testBoxFilter()
-{
-    RgbImg img = readRgbImg("data\\kidsnoise.bmp");
-    RgbImg filtered = convolution(img, 5);
-    writeRgbImg("out\\kids_filtered.bmp", img);
-    deleteRgbImg(img);
-    deleteRgbImg(filtered);
-}
+//void testBoxFilter()
+//{
+//    RgbImg img = readRgbImg("data\\kidsnoise.bmp");
+//    RgbImg filtered = convolution(img, 5);
+//    writeRgbImg("out\\kids_filtered.bmp", img);
+//    deleteRgbImg(img);
+//    deleteRgbImg(filtered);
+//}
 
 void testKernelFilter()
 {
@@ -220,9 +220,10 @@ void grey_effect(const char* path) {
 }
 void pre_conv(const char* path) {
     RgbImg img = readRgbImg(path);
-    convolution(img,5);
-    writeRgbImg("pre_filtered_img.bmp",img);
+    RgbImg filtered = convolution(img,5);
+    writeRgbImg("pre_filtered_img.bmp", filtered);
     deleteRgbImg(img);
+    deleteRgbImg(filtered);
 }
 void increase_sharpness(const char* path) {
     RgbImg img = readRgbImg(path);
@@ -231,12 +232,13 @@ void increase_sharpness(const char* path) {
         matrix[i] = new double [3];
     matrix[0][0] = 0; matrix[0][1] = -1; matrix[0][2] = 0; matrix[1][0] = -1; matrix[1][1] = 5; matrix[1][2] = -1;
     matrix[2][0] = 0; matrix[2][1] = -1; matrix[2][2] = 0;
-    convolution(img,3,matrix);
+    RgbImg filtered = convolution(img,3,matrix);
     for (int i = 0; i < 3; ++i)
         delete[] matrix[i];
     delete[] matrix;
-    writeRgbImg("inc_sharp.bmp",img);
+    writeRgbImg("inc_sharp.bmp",filtered);
     deleteRgbImg(img);
+    deleteRgbImg(filtered);
 //    for (int i = 2; i < img.height - 2; ++i) {
 //        for (int j = 2; j < img.width - 2; ++j) {
 //            int total_g = 0;
@@ -305,12 +307,15 @@ void median_filter(const char* path, int kernel_size) {
     writeRgbImg("median_filter_out.bmp",img);
     deleteRgbImg(img);
 }
+
+
 int main() {
-    median_filter("kidsnoise_s.bmp",3);
+    //median_filter("kidsnoise_s.bmp",3);
+    //prep_for_conv("cb_warm.bmp","cb_warm_out.bmp");
     //rotate("cb_warm.bmp",90);
     //filt();
-//    pre_conv("kidsnoise_s.bmp");
-//    increase_sharpness("pre_filtered_img.bmp");
+    pre_conv("kidsnoise_s.bmp");
+    increase_sharpness("pre_filtered_img.bmp");
     //rotate_matrix();
     //grey_effect("cb_warm.bmp");
     //rotate("cb_warm.bmp",90);
