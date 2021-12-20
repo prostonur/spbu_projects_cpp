@@ -128,101 +128,29 @@ spbu_projects_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/build
 .PHONY : spbu_projects_cpp/fast
 
-classwork/BMPImg/ColorBalancing.obj: classwork/BMPImg/ColorBalancing.cpp.obj
-.PHONY : classwork/BMPImg/ColorBalancing.obj
+homework/16_bit_table/splitting_into_16_bit.obj: homework/16_bit_table/splitting_into_16_bit.cpp.obj
+.PHONY : homework/16_bit_table/splitting_into_16_bit.obj
 
 # target to build an object file
-classwork/BMPImg/ColorBalancing.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.obj
-.PHONY : classwork/BMPImg/ColorBalancing.cpp.obj
+homework/16_bit_table/splitting_into_16_bit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.obj
+.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.obj
 
-classwork/BMPImg/ColorBalancing.i: classwork/BMPImg/ColorBalancing.cpp.i
-.PHONY : classwork/BMPImg/ColorBalancing.i
-
-# target to preprocess a source file
-classwork/BMPImg/ColorBalancing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.i
-.PHONY : classwork/BMPImg/ColorBalancing.cpp.i
-
-classwork/BMPImg/ColorBalancing.s: classwork/BMPImg/ColorBalancing.cpp.s
-.PHONY : classwork/BMPImg/ColorBalancing.s
-
-# target to generate assembly for a file
-classwork/BMPImg/ColorBalancing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/ColorBalancing.cpp.s
-.PHONY : classwork/BMPImg/ColorBalancing.cpp.s
-
-classwork/BMPImg/Filtering.obj: classwork/BMPImg/Filtering.cpp.obj
-.PHONY : classwork/BMPImg/Filtering.obj
-
-# target to build an object file
-classwork/BMPImg/Filtering.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.obj
-.PHONY : classwork/BMPImg/Filtering.cpp.obj
-
-classwork/BMPImg/Filtering.i: classwork/BMPImg/Filtering.cpp.i
-.PHONY : classwork/BMPImg/Filtering.i
+homework/16_bit_table/splitting_into_16_bit.i: homework/16_bit_table/splitting_into_16_bit.cpp.i
+.PHONY : homework/16_bit_table/splitting_into_16_bit.i
 
 # target to preprocess a source file
-classwork/BMPImg/Filtering.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.i
-.PHONY : classwork/BMPImg/Filtering.cpp.i
+homework/16_bit_table/splitting_into_16_bit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.i
+.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.i
 
-classwork/BMPImg/Filtering.s: classwork/BMPImg/Filtering.cpp.s
-.PHONY : classwork/BMPImg/Filtering.s
-
-# target to generate assembly for a file
-classwork/BMPImg/Filtering.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Filtering.cpp.s
-.PHONY : classwork/BMPImg/Filtering.cpp.s
-
-classwork/BMPImg/Source.obj: classwork/BMPImg/Source.cpp.obj
-.PHONY : classwork/BMPImg/Source.obj
-
-# target to build an object file
-classwork/BMPImg/Source.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.obj
-.PHONY : classwork/BMPImg/Source.cpp.obj
-
-classwork/BMPImg/Source.i: classwork/BMPImg/Source.cpp.i
-.PHONY : classwork/BMPImg/Source.i
-
-# target to preprocess a source file
-classwork/BMPImg/Source.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.i
-.PHONY : classwork/BMPImg/Source.cpp.i
-
-classwork/BMPImg/Source.s: classwork/BMPImg/Source.cpp.s
-.PHONY : classwork/BMPImg/Source.s
+homework/16_bit_table/splitting_into_16_bit.s: homework/16_bit_table/splitting_into_16_bit.cpp.s
+.PHONY : homework/16_bit_table/splitting_into_16_bit.s
 
 # target to generate assembly for a file
-classwork/BMPImg/Source.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Source.cpp.s
-.PHONY : classwork/BMPImg/Source.cpp.s
-
-classwork/BMPImg/Utilities.obj: classwork/BMPImg/Utilities.cpp.obj
-.PHONY : classwork/BMPImg/Utilities.obj
-
-# target to build an object file
-classwork/BMPImg/Utilities.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.obj
-.PHONY : classwork/BMPImg/Utilities.cpp.obj
-
-classwork/BMPImg/Utilities.i: classwork/BMPImg/Utilities.cpp.i
-.PHONY : classwork/BMPImg/Utilities.i
-
-# target to preprocess a source file
-classwork/BMPImg/Utilities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.i
-.PHONY : classwork/BMPImg/Utilities.cpp.i
-
-classwork/BMPImg/Utilities.s: classwork/BMPImg/Utilities.cpp.s
-.PHONY : classwork/BMPImg/Utilities.s
-
-# target to generate assembly for a file
-classwork/BMPImg/Utilities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/classwork/BMPImg/Utilities.cpp.s
-.PHONY : classwork/BMPImg/Utilities.cpp.s
+homework/16_bit_table/splitting_into_16_bit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\spbu_projects_cpp.dir\build.make CMakeFiles/spbu_projects_cpp.dir/homework/16_bit_table/splitting_into_16_bit.cpp.s
+.PHONY : homework/16_bit_table/splitting_into_16_bit.cpp.s
 
 # Help Target
 help:
@@ -233,18 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... spbu_projects_cpp
-	@echo ... classwork/BMPImg/ColorBalancing.obj
-	@echo ... classwork/BMPImg/ColorBalancing.i
-	@echo ... classwork/BMPImg/ColorBalancing.s
-	@echo ... classwork/BMPImg/Filtering.obj
-	@echo ... classwork/BMPImg/Filtering.i
-	@echo ... classwork/BMPImg/Filtering.s
-	@echo ... classwork/BMPImg/Source.obj
-	@echo ... classwork/BMPImg/Source.i
-	@echo ... classwork/BMPImg/Source.s
-	@echo ... classwork/BMPImg/Utilities.obj
-	@echo ... classwork/BMPImg/Utilities.i
-	@echo ... classwork/BMPImg/Utilities.s
+	@echo ... homework/16_bit_table/splitting_into_16_bit.obj
+	@echo ... homework/16_bit_table/splitting_into_16_bit.i
+	@echo ... homework/16_bit_table/splitting_into_16_bit.s
 .PHONY : help
 
 

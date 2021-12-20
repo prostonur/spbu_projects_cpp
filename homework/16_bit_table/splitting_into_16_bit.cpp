@@ -6,7 +6,9 @@ void dec_to_hex_for_symb(int num, char symb[3]) {
     while ((temp /= 16) != 0)
         deg *= 16;
     int count = 0;
+    if (deg == 1) symb[count++] = '0';
     while (deg) {
+        std::cout << num << ' ' << num / deg << '\n';
         if (num / deg > 9)
             symb[count++]= static_cast<char>(55 + num / deg);
         else
@@ -16,6 +18,7 @@ void dec_to_hex_for_symb(int num, char symb[3]) {
     }
     symb[3] = 0;
 }
+
 int dec_to_hex(int num, char symb[10]) {
     int temp = num;
     int deg = 1;
@@ -58,7 +61,7 @@ int main() {
     while ((byte = file.get()) != EOF) {
         string[count_in++] = byte;
     }
-    string[++count_in] = 0;
+    string[count_in] = 0;
     char substring[17];
     int count = 0;
     int iter_substring = 0;
@@ -88,7 +91,11 @@ int main() {
             iter_substring = 0;
         } else if (count % 8 == 0 and count != 0)
             out_file << "| ";
-        substring[iter_substring++] = string[count];
+        //if (string[count] == '\n') string[count] = ' ';
+        if (static_cast<int>(string[count]) <= 32) {
+            substring[iter_substring++] = '.';
+        } else
+            substring[iter_substring++] = string[count];
         char symb[3];
         dec_to_hex_for_symb(static_cast<int>(string[count]), symb);
         out_file << symb << ' ';
